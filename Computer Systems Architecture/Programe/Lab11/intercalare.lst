@@ -1,0 +1,15 @@
+     1                                  bits 32   
+     2                                  global intercalare               
+     3                                  segment code use32 public code
+     4                                  
+     5                                  
+     6                                  intercalare:
+     7 00000000 8B4C2404                    mov ecx,[esp+4]
+     8 00000004 83C404                      add esp,4
+     9                                      .repeta:
+    10 00000007 8B06                            mov eax,[esi]
+    11 00000009 8907                            mov [edi],eax
+    12 0000000B 83C702                          add edi,2  
+    13 0000000E 83C602                          add esi,2
+    14 00000011 E2F4                        loop .repeta
+    15 00000013 C20400                      ret 4

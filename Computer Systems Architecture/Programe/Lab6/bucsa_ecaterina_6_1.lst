@@ -1,0 +1,70 @@
+     1                                  
+     2                                  ;;Bucsa Ecaterina, grupa 211/2, 8.11.2017,laboratorul 6, problema 1
+     3                                  
+     4                                  bits 32 ; assembling for the 32 bits architecture
+     5                                  
+     6                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     7                                  global start        
+     8                                  
+     9                                  ; declare external functions needed by our program
+    10                                  extern exit,scanf,printf               ; tell nasm that exit exists even if we won't be defining it
+    11                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    12                                  import scanf msvcrt.dll                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    13                                  import printf msvcrt.dll
+    14                                  
+    15                                  
+    16                                  ; our data is declared here (the variables needed by our program)
+    17                                  segment data use32 class=data
+    18                                      ; ...
+    19                                      
+    20 00000000 01020304                    s1 db 1,2,3,4
+    21                                      l_s1 equ $-s1
+    22 00000004 050607                      s2 db 5,6,7
+    23                                      l_s2 equ $-s2
+    24 00000007 <res 00000007>              d resb l_s1+l_s2
+    25 0000000E FF                          test_var db -1
+    26                                      
+    27                                  ; our code starts here
+    28                                  segment code use32 class=code
+    29                                      start:
+    30                                          ; ...
+    31                                          ;Se dau doua siruri de octeti S1 si S2. Sa se construiasca sirul D prin concatenarea elementelor din sirul S1 1uate de la stanga spre dreapta ;si a elementelor din sirul S2 luate de la dreapta spre stanga. 
+    32                                          ;Exemplu:
+    33                                          ;S1: 1, 2, 3, 4
+    34                                          ;S2: 5, 6, 7
+    35                                          ;D: 1, 2, 3, 4, 7, 6, 5
+    36                                          
+    37 00000000 B904000000                      mov ecx,l_s1; punem lungimea sirului s1 in ecx pentru a realiza bucla loop de ecx ori
+    38 00000005 E31A                            jecxz final_prog
+    39 00000007 BE00000000                      mov esi,0; registrul esi primeste valoarea 0 pentru a parcurge sirul s1 de la stanga la dreapta
+    40 0000000C BF00000000                      mov edi,0
+    41                                          repeta:
+    42 00000011 8A86[00000000]                      mov al,[s1+esi]
+    43 00000017 8887[07000000]                      mov [d+edi],al
+    44 0000001D 46                                  inc esi
+    45 0000001E 47                                  inc edi
+    46 0000001F E2F0                            loop repeta
+    47                                          final_prog:
+    48                                          
+    49                                          
+    50 00000021 B903000000                      mov ecx,l_s2;punem lungimea sirului s2 in ecx pentru a realiza bucla loop de ecx ori
+    51 00000026 E317                            jecxz final_prog1
+    52 00000028 BE02000000                      mov esi,l_s2-1;registrul esi primeste valoarea lungimii sirului s2 -1 pentru a parcurge sirul s1 de la dreapta la stanga
+    53                                          parcurge:
+    54 0000002D 8A86[04000000]                      mov al,[s2+esi]
+    55 00000033 8887[07000000]                      mov [d+edi],al
+    56 00000039 83EE01                              sub esi,1
+    57 0000003C 47                                  inc edi
+    58 0000003D E2EE                            loop parcurge
+    59                                          final_prog1:
+    60                                     
+    61                                          
+    62                                          ; exit(0)
+    63 0000003F 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    64 00000041 FF15[00000000]                  call    [exit]       ; call exit to terminate the program
+    65                                          
+    66                                          
+    67                                          
+    68                                          
+    69                                          
+    70                                          

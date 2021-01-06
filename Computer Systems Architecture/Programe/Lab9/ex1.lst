@@ -1,0 +1,191 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit,scanf,printf              ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                  import scanf msvcrt.dll  
+    10                                  import printf msvcrt.dll 
+    11                                                           ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    12                                  
+    13                                  ; our data is declared here (the variables needed by our program)
+    14                                  segment data use32 class=data
+    15                                      ; ...
+    16 00000000 00000000                    n dd 0
+    17 00000004 257300                      format db "%s",0
+    18                                  ; our code starts here
+    19                                  segment code use32 class=code 
+    20                                      start:
+    21                                          ; ...
+    22                                          ;Write a program that reads a decimal number from the keyboard. The number is unsigned, the maximum number of digits before and after the decimal point is 4. Add the value of pi (3.1415) to this number and w
+    23                                  
+    24                                          ;Example:
+    25                                          ;Input number: 23.543
+    26                                          ;File name: result.txt
+    27                                          ;Outcome: the file result.txt will contain the string '26.6845'.
+    28                                          
+    29 00000000 68[00000000]                    push dword n
+    30 00000005 68[04000000]                    push dword format
+    31 0000000A FF15[00000000]                  call [scanf]
+    32 00000010 83C408                          add esp,4*2
+    33 00000013 BE[00000000]                    mov esi,n
+    34 00000018 B900000000                      mov ecx,0
+    35                                          repet:
+    36 0000001D AC                                  lodsb
+    37 0000001E 83C101                              add ecx,1
+    38 00000021 803E00                              cmp byte [esi],0
+    39 00000024 75F7                                jne repet
+    40                                          
+    41 00000026 51                              push ecx 
+    42 00000027 BE[00000000]                    mov esi,n 
+    43 0000002C BB00000000                      mov ebx,0
+    44 00000031 E331                            jecxz final
+    45                                          repeta:
+    46 00000033 AC                                  lodsb
+    47 00000034 3C2E                                cmp al,'.'
+    48 00000036 740C                                je punct
+    49 00000038 3C00                                cmp al,0
+    50 0000003A 7402                                je bun
+    51 0000003C EB0D                                jmp sari
+    52                                              bun:
+    53 0000003E C646FF30                                mov byte [esi-1],'0'
+    54 00000042 EB07                                    jmp sari
+    55                                              punct:
+    56 00000044 BA01000000                              mov edx,1
+    57 00000049 EB08                                    jmp intreg
+    58                                              sari:
+    59 0000004B 83FA00                                  cmp edx,0
+    60 0000004E 7403                                    je intreg
+    61 00000050 83C301                              add ebx,1 
+    62                                              intreg:
+    63 00000053 83FB04                                  cmp ebx,4
+    64 00000056 7502                                    jne comp
+    65 00000058 EB08                                    jmp l 
+    66                                              comp:
+    67 0000005A 83F901                                  cmp ecx,1
+    68 0000005D 7503                                    jne l
+    69 0000005F 83C101                                  add ecx,1
+    70                                          l:
+    71 00000062 E2CF                            loop repeta
+    72                                          final:
+    73 00000064 BE[00000000]                        mov esi,n 
+    74 00000069 59                                  pop ecx 
+    75 0000006A 01CE                                add esi,ecx 
+    76                                              
+    77 0000006C FD                                  std
+    78 0000006D AC                                  lodsb
+    79 0000006E 83E901                              sub ecx,1
+    80 00000071 800605                              add byte[esi],5
+    81 00000074 B200                                mov dl,0
+    82 00000076 803E39                              cmp byte[esi],'9'
+    83 00000079 7702                                ja sc1
+    84 0000007B EB05                                jmp a1 
+    85                                              sc1:
+    86 0000007D 802E0A                                  sub byte[esi],10
+    87 00000080 B201                                    mov dl,1
+    88                                                  
+    89                                              a1:
+    90 00000082 AC                                  lodsb 
+    91 00000083 83E901                              sub ecx,1
+    92 00000086 800601                              add byte[esi],1
+    93 00000089 0016                                add byte[esi],dl
+    94 0000008B B200                                mov dl,0
+    95 0000008D 803E39                              cmp byte[esi],'9'
+    96 00000090 7702                                ja sc2
+    97 00000092 EB05                                jmp a2 
+    98                                              sc2:
+    99 00000094 802E0A                                  sub byte[esi],10
+   100 00000097 B201                                    mov dl,1                
+   101                                              a2:
+   102 00000099 AC                                  lodsb 
+   103 0000009A 83E901                              sub ecx,1
+   104 0000009D 800604                              add byte[esi],4
+   105 000000A0 0016                                add byte[esi],dl
+   106 000000A2 B200                                mov dl,0
+   107 000000A4 803E39                              cmp byte[esi],'9'
+   108 000000A7 7702                                ja sc3
+   109 000000A9 EB05                                jmp a3 
+   110                                              sc3:
+   111 000000AB 802E0A                                  sub byte[esi],10
+   112 000000AE B201                                    mov dl,1
+   113                                              a3:
+   114 000000B0 AC                                  lodsb 
+   115 000000B1 83E901                              sub ecx,1
+   116 000000B4 800601                              add byte[esi],1
+   117 000000B7 0016                                add byte[esi],dl
+   118 000000B9 B200                                mov dl,0
+   119 000000BB 803E39                              cmp byte[esi],'9'
+   120 000000BE 7702                                ja sc4
+   121 000000C0 EB05                                jmp a4 
+   122                                              sc4:
+   123 000000C2 802E0A                                  sub byte[esi],10
+   124 000000C5 B201                                    mov dl,1
+   125                                              a4:            
+   126 000000C7 AC                                  lodsb 
+   127 000000C8 AC                                  lodsb 
+   128 000000C9 83E901                              sub ecx,1
+   129 000000CC 800603                              add byte[esi],3
+   130 000000CF 0016                                add byte[esi],dl
+   131 000000D1 B200                                mov dl,0
+   132 000000D3 803E39                              cmp byte[esi],'9'
+   133 000000D6 7702                                ja sc5
+   134 000000D8 EB05                                jmp a5
+   135                                              
+   136                                              sc5:
+   137 000000DA 802E0A                                  sub byte[esi],10 
+   138 000000DD B201                                    mov dl,1
+   139                                              a5:
+   140 000000DF E356                                jecxz fine 
+   141 000000E1 AC                                  lodsb 
+   142 000000E2 83E901                              sub ecx,1
+   143 000000E5 800600                              add byte[esi],0
+   144 000000E8 0016                                add byte[esi],dl
+   145 000000EA B200                                mov dl,0
+   146 000000EC 803E39                              cmp byte[esi],'9'
+   147 000000EF 7702                                ja sc6
+   148 000000F1 EB05                                jmp a6 
+   149                                              sc6:
+   150 000000F3 802E0A                                  sub byte[esi],10 
+   151 000000F6 B201                                    mov dl,1
+   152                                              a6:
+   153 000000F8 E33D                                    jecxz fine 
+   154 000000FA AC                                      lodsb 
+   155 000000FB 83E901                                  sub ecx,1
+   156 000000FE 800600                                  add byte[esi],0
+   157 00000101 0016                                    add byte[esi],dl
+   158 00000103 B200                                    mov dl,0
+   159 00000105 803E39                                  cmp byte[esi],'9'
+   160 00000108 7702                                    ja sc7
+   161 0000010A EB05                                    jmp a7
+   162                                              sc7:
+   163 0000010C 802E0A                                  sub byte[esi],10 
+   164 0000010F B201                                    mov dl,1
+   165                                              a7:
+   166 00000111 E324                                    jecxz fine 
+   167 00000113 AC                                      lodsb 
+   168 00000114 83E901                                  sub ecx,1
+   169 00000117 800600                                  add byte[esi],0
+   170 0000011A 0016                                    add byte[esi],dl
+   171 0000011C B200                                    mov dl,0
+   172 0000011E 803E39                                  cmp byte[esi],'9'
+   173 00000121 7702                                    ja sc8
+   174 00000123 EB05                                    jmp a8
+   175                                              sc8:
+   176 00000125 802E0A                                  sub byte[esi],10 
+   177 00000128 B201                                    mov dl,1
+   178                                              a8:
+   179 0000012A E30B                                    jecxz fine 
+   180 0000012C AC                                      lodsb 
+   181 0000012D 83E901                                  sub ecx,1
+   182 00000130 800600                                  add byte[esi],0
+   183 00000133 0016                                    add byte[esi],dl
+   184 00000135 B201                                    mov dl,1
+   185                                                  
+   186                                              
+   187                                          
+   188                                          fine:
+   189                                          ; exit(0)
+   190 00000137 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   191 00000139 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

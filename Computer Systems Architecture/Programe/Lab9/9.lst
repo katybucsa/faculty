@@ -1,0 +1,147 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit,fopen,fclose,fread,printf               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll  
+     9                                  import fopen msvcrt.dll
+    10                                  import fclose msvcrt.dll
+    11                                  import fread msvcrt.dll
+    12                                  import printf msvcrt.dll  ; exit is a function that ends the calling process. It is         defined in msvcrt.dll
+    13                                                                      ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    14                                  
+    15                                  ; our data is declared here (the variables needed by our program)
+    16                                  segment data use32 class=data
+    17                                      ; ...
+    18 00000000 6369746972652E7478-         nume_fis db 'citire.txt',0
+    18 00000009 7400               
+    19 0000000B 7200                        mod_acces db 'r',0
+    20 0000000D FFFFFFFF                    descriptor_fis dd -1
+    21 00000011 00000000                    nr_car_citite dd 0
+    22                                      len equ 1
+    23 00000015 <res 00000001>              a resb len
+    24 00000016 436172616374657275-         format db 'Caracterul %c apare de %d ori',0
+    24 0000001F 6C2025632061706172-
+    24 00000028 65206465202564206F-
+    24 00000031 726900             
+    25 00000034 00000000                    ap dd 0
+    26 00000038 00000000                    el dd 0
+    27 0000003C 00000000                    len_c dd 0
+    28 00000040 00                          c  db 0
+    29                                  ; our code starts here
+    30                                  segment code use32 class=code
+    31                                      start:
+    32                                          ; ...
+    33                                          ;Se da un fisier text. Sa se citeasca continutul fisierului, sa se determine caracterul special (diferit de litera) cu ;cea mai mare frecventa si sa se afiseze acel caracter, impreuna cu frecventa acestuia. 
+    34                                          ;Numele fisierului text este definit in segmentul de date.
+    35                                          
+    36 00000000 68[0B000000]                    push dword mod_acces
+    37 00000005 68[00000000]                    push dword nume_fis
+    38 0000000A FF15[00000000]                  call [fopen]
+    39 00000010 83C408                          add esp, 4*2
+    40                                          
+    41 00000013 A3[0D000000]                    mov [descriptor_fis],eax
+    42                                          
+    43 00000018 83F800                          cmp eax,0
+    44 0000001B 7469                            je final
+    45                                          
+    46                                          
+    47 0000001D BF00000000                      mov edi,0
+    48                                          bucla:
+    49 00000022 FF35[0D000000]                      push dword [descriptor_fis]
+    50 00000028 6A01                                push dword len
+    51 0000002A 6A01                                push dword 1
+    52 0000002C 68[15000000]                        push dword a
+    53 00000031 FF15[00000000]                      call [fread]
+    54 00000037 83C410                              add esp, 4*4
+    55                                              
+    56                                                     
+    57                                              
+    58 0000003A 83F800                              cmp eax, 0
+    59 0000003D 7432                                je cleanup
+    60                                              
+    61 0000003F 8A1D[15000000]                      mov bl,[a]
+    62 00000045 80FB41                              cmp bl,'A'
+    63 00000048 7C17                                jl adauga
+    64 0000004A EB00                                jmp et
+    65                                              
+    66                                              et:
+    67 0000004C 80FB7A                              cmp bl,'z'
+    68 0000004F 7F10                                jg adauga
+    69 00000051 EB00                                jmp et1
+    70                                              
+    71                                              et1:
+    72 00000053 80FB61                              cmp bl,'a'
+    73 00000056 7C02                                jl et2
+    74 00000058 EB10                                jmp sfarsit
+    75                                              
+    76                                              et2:
+    77 0000005A 80FB5A                                 cmp bl,'Z'
+    78 0000005D 7F02                                   jg adauga
+    79 0000005F EB09                                   jmp sfarsit
+    80                                              
+    81                                              adauga:
+    82 00000061 889F[40000000]                          mov [c+edi],bl
+    83 00000067 47                                      inc edi
+    84 00000068 EB00                                    jmp sfarsit
+    85                                                  
+    86                                              sfarsit:   
+    87 0000006A A3[11000000]                            mov [nr_car_citite],eax
+    88                                              
+    89 0000006F EBB1                                jmp bucla
+    90                                              
+    91                                          cleanup:
+    92 00000071 FF35[0D000000]                      push dword [descriptor_fis]
+    93 00000077 FF15[00000000]                      call [fclose]
+    94 0000007D 83C404                              add esp, 4
+    95 00000080 893D[3C000000]                      mov [len_c],edi
+    96                                              
+    97                                          final:
+    98 00000086 B300                                mov bl,0
+    99 00000088 BE[40000000]                        mov esi,c
+   100 0000008D FC                                  cld
+   101 0000008E 8B0D[3C000000]                      mov ecx,[len_c]
+   102 00000094 E330                                jecxz finalp
+   103                                              repeta:
+   104 00000096 AC                                      lodsb
+   105 00000097 B200                                    mov dl,0
+   106 00000099 8B3D[3C000000]                          mov edi,[len_c]
+   107 0000009F 4F                                      dec edi
+   108                                                  repeta1:
+   109 000000A0 3A87[40000000]                              cmp al,[c+edi]
+   110 000000A6 7402                                        je et3
+   111 000000A8 EB12                                        jmp sfarsit1
+   112                                                  
+   113                                                  et3:
+   114 000000AA 80C201                                      add dl,1
+   115 000000AD 38DA                                        cmp dl,bl
+   116 000000AF 7F02                                        jg et4
+   117 000000B1 EB09                                        jmp sfarsit1
+   118                                              
+   119                                                  et4:
+   120 000000B3 88D3                                        mov bl,dl
+   121 000000B5 A2[38000000]                                mov [el],al
+   122 000000BA EB00                                        jmp sfarsit1
+   123                                              
+   124                                                  sfarsit1:
+   125 000000BC 4F                                          dec edi
+   126 000000BD 83FFFF                                      cmp edi,-1
+   127 000000C0 7402                                        je finalp1
+   128                                                      
+   129 000000C2 EBDC                                        jmp repeta1
+   130                                              
+   131                                                  finalp1:
+   132 000000C4 E2D0                                        loop repeta
+   133                                                  finalp:
+   134 000000C6 881D[34000000]                              mov [ap],bl
+   135 000000CC FF35[34000000]                              push dword [ap]
+   136 000000D2 FF35[38000000]                              push dword [el]
+   137 000000D8 68[16000000]                                push dword format
+   138 000000DD FF15[00000000]                              call [printf]
+   139 000000E3 83C40C                                      add esp,4*3
+   140                                              
+   141                                          ; exit(0)
+   142 000000E6 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   143 000000E8 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

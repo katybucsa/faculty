@@ -1,0 +1,78 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  bits 32 ; assembling for the 32 bits architecture
+     5                                  
+     6                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     7                                  global start        
+     8                                  
+     9                                  ; declare external functions needed by our program
+    10                                  extern exit, printf, scanf              ; tell nasm that exit exists even if we won't be defining it
+    11                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    12                                  import printf msvcrt.dll 
+    13                                  import scanf msvcrt.dll  
+    14                                                             ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    15                                  
+    16                                  ; our data is declared here (the variables needed by our program)
+    17                                  segment data use32 class=data
+    18                                      ; ...
+    19 00000000 00000000                    a dd 0
+    20 00000004 00000000                    b dd 0
+    21 00000008 613D00                      m1 db 'a=',0
+    22 0000000B 623D00                      m2 db 'b=',0
+    23 0000000E 256400                      format db '%d',0
+    24 00000011 00000000                    rezultat dd 0
+    25 00000015 2B00                        plus db '+',0
+    26 00000017 3D00                        egal db '=',0
+    27                                      
+    28                                  ; our code starts here
+    29                                  segment code use32 class=code
+    30                                      start:
+    31                                          ; ...
+    32                                          ;Se dau doua numere naturale a si b (a, b: dword, definite in segmentul de date). Sa se calculeze suma lor si sa se ;afiseze in urmatorul format:
+    33                                          ;"<a> + <b> = <result>"
+    34                                          ;Exemplu: "1 + 2 = 3"
+    35                                          ;Valorile vor fi afisate in format decimal (baza 10) cu semn.
+    36                                          
+    37 00000000 68[08000000]                    push dword m1; pe stiva se pune adresa string-ului, nu valoarea
+    38 00000005 FF15[00000000]                  call [printf];se apeleaza functia printf pentru afisare
+    39 0000000B 83C404                          add esp, 4*1; se elibereaza parametrii de pe stiva; 4=dimensiunea unui dword; 1= nr de parametrii 
+    40 0000000E 68[00000000]                    push dword a; pe stiva se pune adresa lui a 
+    41 00000013 68[0E000000]                    push dword format; 
+    42 00000018 FF15[00000000]                  call [scanf]; se apeleazafunctia scanf pentru citire
+    43 0000001E 83C408                          add esp, 4*2; se elibereaza parametrii de pe stiva; 4=dimensiunea unui dword; 2=nr de parametrii
+    44                                          
+    45 00000021 68[0B000000]                    push dword m2; pe stiva se pune adresa string-ului m2, nu valoarea
+    46 00000026 FF15[00000000]                  call [printf]; se apeleaza functia printf pentru afisare 
+    47 0000002C 83C404                          add esp, 4*1; se elibereaza parametrii de pe stiva 
+    48 0000002F 68[04000000]                    push dword b; pe stive se pune adresa lui b, nu valoarea sa 
+    49 00000034 68[0E000000]                    push dword format
+    50 00000039 FF15[00000000]                  call [scanf]; se apeleaza  functia scanf pentru citire
+    51 0000003F 83C408                          add esp, 4*2; se elibereaza parametriide pe stiva
+    52                                          
+    53 00000042 A1[00000000]                    mov eax,[a]; punem in eax valoarea lui a
+    54 00000047 0305[04000000]                  add eax,[b]; eax=eax+b=a+b 
+    55 0000004D A3[11000000]                    mov [rezultat],eax; punem in variabila rezultat suma numerelor
+    56                                          
+    57 00000052 FF35[00000000]                  push dword [a]; pe stiva se pune valoarea variabilei a
+    58 00000058 68[0E000000]                    push dword format
+    59 0000005D FF15[00000000]                  call [printf]; se apeleaza functia printf pentru a afisa mesaj
+    60 00000063 83C408                          add esp, 4*2; se elibereaza parametrii de pe salva; 4=dimensiunea unui dword 2= numarul de parametrii
+    61 00000066 68[15000000]                    push dword plus; pe stiva sepune adresa string-ului, nu valoarea sa
+    62 0000006B FF15[00000000]                  call [printf]; se afiseaza '+'
+    63 00000071 83C404                          add esp, 4*1; se elibereaza parametrii de pe salva; 4=dimensiunea unui dword 1= numarul de parametrii
+    64 00000074 FF35[04000000]                  push dword [b]; se pune pe stiva valoarea variabilei b
+    65 0000007A 68[0E000000]                    push dword format
+    66 0000007F FF15[00000000]                  call [printf]; se apeleaza functia printf pentru afisare
+    67 00000085 83C408                          add esp, 4*2; se elibereaza parametrii de pe salva; 4=dimensiunea unui dword 2= numarul de parametrii
+    68 00000088 68[17000000]                    push dword egal; se punde pe stiva adresa string-ului egal, nu valoarea sa
+    69 0000008D FF15[00000000]                  call [printf]; se apeleaza functia printf, afisandu-se '='
+    70 00000093 FF35[11000000]                  push dword [rezultat]; se pune pe stiva valoarea variabilei rezultat
+    71 00000099 68[0E000000]                    push dword format
+    72 0000009E FF15[00000000]                  call [printf]; se  apeleaza functia printf pentru afisare
+    73 000000A4 83C408                          add esp, 4*2; se elibereaza parametrii de pe salva; 4=dimensiunea unui dword 2= numarul de parametrii
+    74                                         
+    75                                          
+    76                                          ; exit(0)
+    77 000000A7 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    78 000000A9 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

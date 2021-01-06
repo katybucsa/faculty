@@ -1,0 +1,79 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13                                      ; ...
+    14 00000000 341278569000                a dw 1234h,5678h,90h
+    15                                      l_a equ ($-a)/2
+    16 00000006 0400CDAB10002211            b dw 4h,0abcdh,10h,1122h
+    17                                      l_b equ ($-b)/2
+    18 0000000E 00                          s db 0
+    19 0000000F 00<rept>                    c times l_a+l_b db 0
+    20                                  ; our code starts here
+    21                                  segment code use32 class=code
+    22                                      start:
+    23                                          ; ...
+    24                                          ;Given two strings of words, a and b, obtain a third string c in the following way: concatenate the string of the least significant bytes from the words of the first string with the string of most significan
+    25                                          ;Example: let the two string be defined as
+    26                                          ;a dw 1234h,5678h,90h
+    27                                          ;b dw 4h,0abcdh,10h,1122h
+    28                                          ;c times 7 db 0
+    29                                          ;These two strings will be represented in memory:
+    30                                          ;a -> | 34h| 12h| 78h| 56h| 90h| 00h|
+    31                                          ;b -> | 04h| 00h| 0cdh| 0abh| 10h| 00h| 22h| 11h|
+    32                                          ;By concatenating, as required, string c will be:
+    33                                          ;34h,78h,90h,00h,0abh,00h,11h. After concatenating, ;string c must be ordered ascending.
+    34                                          
+    35 00000000 B903000000                      mov ecx,l_a
+    36 00000005 E316                            jecxz final_prog
+    37 00000007 BE[00000000]                    mov esi,a
+    38 0000000C BB00000000                      mov ebx,0
+    39 00000011 BF[0F000000]                    mov edi,c
+    40                                          repeta:
+    41 00000016 A4                                  movsb
+    42 00000017 46                                  inc esi
+    43 00000018 83C301                              add ebx,1
+    44 0000001B E2F9                            loop repeta
+    45                                          final_prog:
+    46 0000001D B904000000                      mov ecx,l_b
+    47 00000022 E30C                            jecxz final_pr
+    48 00000024 BE[06000000]                    mov esi,b
+    49                                          repeta1:
+    50 00000029 46                                  inc esi
+    51 0000002A A4                                  movsb
+    52 0000002B 83C301                              add ebx,1
+    53 0000002E E2F9                            loop repeta1
+    54                                          final_pr:
+    55                                              
+    56 00000030 83EB01                              sub ebx,1
+    57 00000033 BE[0F000000]                        mov esi,c
+    58 00000038 89D9                                mov ecx,ebx 
+    59 0000003A BA01000000                          mov edx,1
+    60 0000003F E315                                jecxz fin
+    61                                              parcurge:
+    62 00000041 AC                                      lodsb 
+    63 00000042 3A06                                    cmp al,[esi]
+    64 00000044 7702                                    ja schimba
+    65 00000046 EB0C                                    jmp fine
+    66                                                  schimba:
+    67 00000048 8A16                                        mov dl,[esi]
+    68 0000004A 8806                                        mov [esi],al 
+    69 0000004C 8856FF                                      mov [esi-1],dl 
+    70 0000004F BA00000000                                  mov edx,0 
+    71                                              fine:
+    72 00000054 E2EB                                loop parcurge 
+    73                                              fin:
+    74 00000056 83FA00                                  cmp edx,0
+    75 00000059 74D5                                    je final_pr
+    76                                                  
+    77                                          ; exit(0)
+    78 0000005B 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    79 0000005D FF15[00000000]                  call    [exit]       ; call exit to terminate the program

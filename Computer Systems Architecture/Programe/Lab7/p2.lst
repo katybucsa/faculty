@@ -1,0 +1,94 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit,printf               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                  import printf msvcrt.dll                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13                                      ; ...
+    14 00000000 78563412CF5B000027-         s dd 12345678h,5bcfh,45327h,1798dfeh,0f112233h
+    14 00000009 530400FE8D79013322-
+    14 00000012 110F               
+    15                                      len equ $-s 
+    16 00000014 03                          trei db 3
+    17 00000015 2578682000                  format db '%xh',32,0
+    18 0000001A 00<rept>                    sir times len db 0
+    19                                      
+    20                                  ; our code starts here
+    21                                  segment code use32 class=code
+    22                                      start:
+    23                                          ; ...
+    24                                          ;Consider a string of double words. Obtain the ascending ordered sequence of bytes of rank multiple of 3 of the given string. 
+    25                                  
+    26                                          ;Example: let the double word string be
+    27                                          ;s dd 12345678h,5bcfh,45327h,1798dfeh,0f112233h
+    28                                          ;This string will be represented in memory as:
+    29                                          ;| 78h| 56h| 34h| 12h| 0cfh| 5bh| 00h| 00h| 27h| 53h| 04h| 00h| 0feh| 8dh| 79h| 01h| 33h| 22h| 11h| 0fh|
+    30                                          ;The sequence of bytes of rank multiple of 3 of the string s is obtained by concatenating the bytes from ;positions 0,3,6,9,..:
+    31                                          ;| 78h| 12h| 00h| 53h| 0feh| 01h| 11h|
+    32                                          ;This sequence must be in ascending order.
+    33                                          
+    34 00000000 BE[00000000]                    mov esi,s 
+    35 00000005 BF[1A000000]                    mov edi,sir 
+    36 0000000A B914000000                      mov ecx,len 
+    37 0000000F B300                            mov bl,0
+    38 00000011 BA00000000                      mov edx,0
+    39 00000016 E31A                            jecxz final
+    40                                          repet:
+    41 00000018 AC                                  lodsb
+    42 00000019 88D8                                mov al,bl 
+    43 0000001B B400                                mov ah,0
+    44 0000001D F635[14000000]                      div byte[trei]
+    45 00000023 80C301                              add bl,1
+    46 00000026 80FC00                              cmp ah,0
+    47 00000029 7505                                jne fine
+    48 0000002B 83C201                              add edx,1
+    49 0000002E 4E                                  dec esi 
+    50 0000002F A4                                  movsb 
+    51                                          fine:    
+    52 00000030 E2E6                            loop repet    
+    53                                          final:
+    54 00000032 89D1                                mov ecx,edx 
+    55 00000034 83E901                              sub ecx,1
+    56 00000037 BB01000000                          mov ebx,1
+    57 0000003C BE[1A000000]                        mov esi,sir 
+    58 00000041 E315                                jecxz fin 
+    59                                              parcurge:
+    60 00000043 AC                                      lodsb 
+    61 00000044 3A06                                    cmp al,[esi]
+    62 00000046 7702                                    ja schimba
+    63 00000048 EB0C                                    jmp f 
+    64                                                  schimba:
+    65 0000004A 8A1E                                        mov bl,[esi]
+    66 0000004C 8806                                        mov [esi],al 
+    67 0000004E 885EFF                                      mov [esi-1],bl 
+    68 00000051 BB00000000                                  mov ebx,0
+    69                                              f:
+    70 00000056 E2EB                                loop parcurge 
+    71                                              fin:
+    72 00000058 83FB00                                  cmp ebx,0 
+    73 0000005B 74D5                                    je final 
+    74                                                  
+    75 0000005D 89D1                                mov ecx,edx
+    76 0000005F BE[1A000000]                        mov esi,sir
+    77 00000064 E319                                jecxz fi
+    78                                              afiseaza:
+    79 00000066 B800000000                              mov eax,0
+    80 0000006B 51                                      push ecx
+    81 0000006C AC                                      lodsb
+    82 0000006D 50                                      push eax
+    83 0000006E 68[15000000]                            push dword format
+    84 00000073 FF15[00000000]                          call [printf]
+    85 00000079 83C408                                  add esp,4*2 
+    86 0000007C 59                                      pop ecx 
+    87 0000007D E2E7                                loop afiseaza
+    88                                              fi:
+    89                                          
+    90                                          ; exit(0)
+    91 0000007F 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    92 00000081 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

@@ -1,0 +1,121 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit,scanf,printf,fopen,fread,fclose               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                  import printf msvcrt.dll 
+    10                                  import scanf msvcrt.dll 
+    11                                  import fopen msvcrt.dll 
+    12                                  import fread msvcrt.dll 
+    13                                  import fclose msvcrt.dll                           ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    14                                  
+    15                                  ; our data is declared here (the variables needed by our program)
+    16                                  segment data use32 class=data
+    17                                      ; ...
+    18                                      l equ 20
+    19                                      len equ 100
+    20 00000000 00<rept>                    numefis times l db 0
+    21 00000014 257300                      format db '%s',0
+    22 00000017 257500                      formatn db '%u',0
+    23 0000001A 7200                        modr db 'r',0
+    24 0000001C 4E7520732D61206761-         mesaj db 'Nu s-a gasit numele fisierului introdus',0
+    24 00000025 736974206E756D656C-
+    24 0000002E 652066697369657275-
+    24 00000037 6C756920696E74726F-
+    24 00000040 64757300           
+    25 00000044 FFFFFFFF                    handle dd -1 
+    26 00000048 0000<rept>                  buffer times len db 0,0
+    27                                  ; our code starts here
+    28                                  segment code use32 class=code
+    29                                      start:
+    30                                          ; ...
+    31                                          ;Se da un fisier text. Sa se citeasca continutul fisierului, sa se contorizeze numarul de consoane si sa se   afiseze aceasta valoare. 
+    32 00000000 68[00000000]                    push dword numefis
+    33 00000005 68[14000000]                    push dword format
+    34 0000000A FF15[00000000]                  call [scanf]
+    35 00000010 83C408                          add esp,4*2
+    36                                          
+    37 00000013 68[1A000000]                    push dword modr
+    38 00000018 68[00000000]                    push dword numefis
+    39 0000001D FF15[00000000]                  call [fopen]
+    40 00000023 83C408                          add esp,4*2 
+    41                                          
+    42                                          
+    43 00000026 83F800                          cmp eax,0 
+    44 00000029 0F8483000000                    je eroare
+    45                                          
+    46 0000002F BB00000000                      mov ebx,0
+    47 00000034 A3[44000000]                    mov [handle],eax
+    48                                          repet:
+    49 00000039 FF35[44000000]                      push dword [handle]
+    50 0000003F 6A64                                push dword len
+    51 00000041 6A01                                push dword 1
+    52 00000043 68[48000000]                        push dword buffer
+    53 00000048 FF15[00000000]                      call [fread]
+    54 0000004E 83C410                              add esp,4*4
+    55                                              
+    56 00000051 50                                  push eax 
+    57 00000052 BE[48000000]                        mov esi,buffer 
+    58 00000057 89C1                                mov ecx,eax 
+    59 00000059 E340                                jecxz final
+    60                                              repeta:
+    61 0000005B AC                                      lodsb 
+    62 0000005C 3C61                                    cmp al,'a'
+    63 0000005E 7439                                    je fin
+    64 00000060 3C65                                    cmp al,'e'
+    65 00000062 7435                                    je fin
+    66 00000064 3C69                                    cmp al,'i'
+    67 00000066 7431                                    je fin
+    68 00000068 3C6F                                    cmp al,'o'
+    69 0000006A 742D                                    je fin
+    70 0000006C 3C75                                    cmp al,'u'
+    71 0000006E 7429                                    je fin
+    72 00000070 3C41                                    cmp al,'A'
+    73 00000072 7425                                    je fin
+    74 00000074 3C45                                    cmp al,'E'
+    75 00000076 7421                                    je fin
+    76 00000078 3C49                                    cmp al,'I'
+    77 0000007A 741D                                    je fin
+    78 0000007C 3C4F                                    cmp al,'O'
+    79 0000007E 7419                                    je fin
+    80 00000080 3C55                                    cmp al,'U'
+    81 00000082 7415                                    je fin
+    82 00000084 3C41                                    cmp al,'A'
+    83 00000086 7211                                    jb fin 
+    84 00000088 3C7A                                    cmp al,'z'
+    85 0000008A 770D                                    ja fin 
+    86 0000008C 3C5A                                    cmp al,'Z'
+    87 0000008E 7606                                    jbe ada
+    88 00000090 3C61                                    cmp al,'a'
+    89 00000092 7302                                    jae ada 
+    90 00000094 EB03                                    jmp fin 
+    91                                                  ada:
+    92 00000096 83C301                                      add ebx,1
+    93                                                  
+    94                                              fin:
+    95 00000099 E2C0                                loop repeta
+    96                                              final:
+    97 0000009B 58                                  pop eax 
+    98 0000009C 83F864                              cmp eax,len
+    99 0000009F 7498                                je repet
+   100 000000A1 FF35[44000000]                  push dword [handle]
+   101 000000A7 FF15[00000000]                  call [fclose]
+   102 000000AD 83C408                          add esp,4*2
+   103 000000B0 EB13                            jmp fine
+   104                                          
+   105                                          eroare:
+   106 000000B2 68[1C000000]                        push dword mesaj 
+   107 000000B7 68[14000000]                        push dword format
+   108 000000BC FF15[00000000]                      call [printf]
+   109 000000C2 83C408                              add esp,4*2 
+   110                                          fine: 
+   111 000000C5 53                                  push ebx 
+   112 000000C6 68[17000000]                        push dword formatn
+   113 000000CB FF15[00000000]                      call [printf]
+   114 000000D1 83C408                              add esp,4*2
+   115                                          ; exit(0)
+   116 000000D4 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   117 000000D6 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

@@ -1,0 +1,70 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit,printf               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                  import printf msvcrt.dll                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13                                      ; ...
+    14 00000000 78563412CDAB561244-         sir DD 12345678h, 1256ABCDh, 12AB4344h
+    14 00000009 43AB12             
+    15                                      l equ ($-sir)/2
+    16                                      l1 equ ($-sir)/4
+    17 0000000C 00                          a db 0
+    18 0000000D 25782000                    format db '%x ',0
+    19                                  ; our code starts here
+    20                                  segment code use32 class=code
+    21                                      start:
+    22                                          ; ...
+    23                                          ;2. Se da un sir de dublucuvinte. Sa se ordoneze descrescator sirul cuvintelor inferioare ale acestor dublucuvinte. Cuvintele superioare raman neschimbate.
+    24                                          ;Exemplu:
+    25                                          ;dandu-se:
+    26                                          ;sir DD 12345678h 1256ABCDh, 12AB4344h
+    27                                          ;rezultatul va fi
+    28                                          ;1234ABCDh, 12565678h, 12AB4344h.
+    29                                          
+    30 00000000 BE[00000000]                    mov esi,sir 
+    31 00000005 BA00000000                      mov edx,0
+    32                                          parcurge:
+    33 0000000A BA01000000                          mov edx,1
+    34 0000000F B906000000                          mov ecx,l
+    35 00000014 E323                                jecxz final 
+    36                                              repeta:
+    37 00000016 66AD                                    lodsw;in ax
+    38 00000018 83C602                                  add esi,2 
+    39 0000001B 6689C3                                  mov bx,ax 
+    40 0000001E 66AD                                    lodsw 
+    41 00000020 83C602                                  add esi,2
+    42 00000023 6639D8                                  cmp ax,bx 
+    43 00000026 7702                                    ja change
+    44 00000028 EB0D                                    jmp fine
+    45                                                  change:
+    46 0000002A 66895EFC                                    mov [esi-4],bx 
+    47 0000002E 668946F8                                    mov [esi-8],ax 
+    48 00000032 BA00000000                                  mov edx,0
+    49                                              fine:
+    50 00000037 E2DD                                loop repeta 
+    51                                              final:
+    52 00000039 83FA00                                  cmp edx,0
+    53 0000003C 74CC                                    jz parcurge
+    54 0000003E B903000000                          mov ecx,l1
+    55 00000043 BE[00000000]                        mov esi,sir 
+    56 00000048 E314                                jecxz finl
+    57                                          afisare:
+    58 0000004A AD                                  lodsd
+    59 0000004B 51                                  push ecx 
+    60 0000004C 50                                  push eax
+    61 0000004D 68[0D000000]                        push dword format
+    62 00000052 FF15[00000000]                      call [printf]
+    63 00000058 83C408                              add esp,4*2
+    64 0000005B 59                                  pop ecx
+    65 0000005C E2EC                            loop afisare
+    66                                          finl:
+    67                                          ; exit(0)
+    68 0000005E 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    69 00000060 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

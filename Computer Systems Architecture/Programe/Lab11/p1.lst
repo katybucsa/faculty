@@ -1,0 +1,87 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit,printf               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                  import printf msvcrt.dll                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13                                      ; ...
+    14 00000000 725E7F03                    a dd 58678898
+    15 00000004 00000000                    b dd 0
+    16 00000008 0A000000                    zece dd 10
+    17 0000000C 25780A0D00                  format db "%x",10,13,0
+    18 00000011 25750A0D00                  format1 db "%u",10,13,0
+    19                                  ; our code starts here
+    20                                  segment code use32 class=code
+    21                                      start:
+    22                                          ; ...
+    23                                          ;Se da un numar a reprezentat pe 32 biti fara semn. Se cere sa se afiseze reprezentarea in baza 16 a lui a, precum si rezultatul permutarilor circulare ale cifrelor sale.
+    24 00000000 FF35[00000000]                  push dword [a]
+    25 00000006 68[0C000000]                    push dword format
+    26 0000000B FF15[00000000]                  call [printf]
+    27 00000011 83C408                          add esp,8
+    28                                          
+    29 00000014 A1[00000000]                    mov eax,[a]
+    30 00000019 BA00000000                      mov edx,0
+    31 0000001E BB00000000                      mov ebx,0
+    32                                          repeta:
+    33 00000023 F735[08000000]                      div dword[zece]
+    34 00000029 83C301                              add ebx,1
+    35 0000002C 83F800                              cmp eax, 0
+    36 0000002F 7407                                jz final
+    37 00000031 BA00000000                          mov edx,0
+    38 00000036 EBEB                                jmp repeta
+    39                                          final:
+    40 00000038 83EB01                              sub ebx,1
+    41 0000003B 89D9                                mov ecx,ebx
+    42 0000003D 891D[04000000]                      mov [b],ebx 
+    43 00000043 53                                  push ebx
+    44 00000044 E30D                                jecxz final1
+    45 00000046 B801000000                          mov eax,1
+    46                                              repeta1:
+    47 0000004B F725[08000000]                          mul dword [zece]
+    48 00000051 E2F8                                   loop repeta1
+    49                                              final1:
+    50 00000053 5B                                      pop ebx 
+    51 00000054 89D9                                    mov ecx,ebx 
+    52 00000056 89C3                                    mov ebx,eax
+    53 00000058 A1[00000000]                            mov eax,[a]
+    54 0000005D BA00000000                              mov edx,0
+    55 00000062 E316                                    jecxz final2
+    56                                                  repeta2:
+    57 00000064 F735[08000000]                              div dword [zece]
+    58 0000006A 50                                          push eax 
+    59 0000006B 89D8                                        mov eax,ebx 
+    60 0000006D F7E2                                        mul edx
+    61 0000006F 5A                                          pop edx 
+    62 00000070 01D0                                        add eax,edx 
+    63                                                      
+    64 00000072 50                                          push eax 
+    65                                                      
+    66 00000073 BA00000000                                  mov edx,0
+    67 00000078 E2EA                                        loop repeta2
+    68                                                  final2:
+    69 0000007A 8B0D[04000000]                                  mov ecx,[b]
+    70 00000080 E314                                            jecxz final3
+    71                                                          repeta3:
+    72 00000082 58                                                  pop eax
+    73 00000083 51                                                  push ecx
+    74 00000084 50                                                  push eax 
+    75 00000085 68[11000000]                                        push dword format1
+    76 0000008A FF15[00000000]                                      call [printf]
+    77 00000090 83C408                                              add esp, 4*2
+    78 00000093 59                                                  pop ecx 
+    79 00000094 E2EC                                            loop repeta3 
+    80                                                          final3:
+    81                                                  
+    82                                                  
+    83                                          
+    84                                          
+    85                                          ; exit(0)
+    86 00000096 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    87 00000098 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

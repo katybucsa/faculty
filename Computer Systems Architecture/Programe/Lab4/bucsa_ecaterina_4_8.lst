@@ -1,0 +1,92 @@
+     1                                  ;Bucsa Ecaterina, grupa 211/2, 24.10.2017,laboratorul 4, problema 8
+     2                                  
+     3                                  ;Se dau doua cuvinte A si B. Sa se obtina un octet C care are:
+     4                                  ; pe bitii 0-5 bitii 5-10 ai cuvantului A,
+     5                                  ; iar pe bitii 6-7 bitii 1-2 ai cuvantului B. 
+     6                                  ;Sa se obtina dublucuvantul D care are:
+     7                                  ; pe bitii 8-15 bitii lui C,
+     8                                  ; pe bitii 0-7 bitii 8-15 din B,
+     9                                  ; pe bitii 24-31 bitii 0-7 din A, 
+    10                                  ;iar pe bitii 16-23 bitii 8-15 din A
+    11                                  
+    12                                  bits 32 ; assembling for the 32 bits architecture
+    13                                  
+    14                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+    15                                  global start        
+    16                                  
+    17                                  ; declare external functions needed by our program
+    18                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+    19                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    20                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    21                                  
+    22                                  ; our data is declared here (the variables needed by our program)
+    23                                  segment data use32 class=data
+    24                                      ; ...
+    25 00000000 5777                        a dw 0111011101010111b
+    26 00000002 BE9B                        b dw 1001101110111110b
+    27 00000004 00                          c db 0
+    28 00000005 00000000                    d dd 0
+    29                                  ; our code starts here
+    30                                  segment code use32 class=code
+    31                                      start:
+    32                                          ; ...
+    33 00000000 B300                            mov bl,0;
+    34 00000002 66A1[00000000]                  mov ax,[a]
+    35 00000008 6625E007                        and ax,0000011111100000b
+    36 0000000C B105                            mov cl,5
+    37 0000000E 66D3C8                          ror ax,cl
+    38 00000011 08C3                            or bl,al
+    39                                          
+    40 00000013 66A1[02000000]                  mov ax,[b]
+    41 00000019 6683E006                        and ax,0000000000000110b
+    42 0000001D B105                            mov cl,5
+    43 0000001F 66D3C0                          rol ax,cl
+    44 00000022 08C3                            or bl,al
+    45 00000024 881D[04000000]                  mov [c],bl
+    46                                          
+    47 0000002A BB00000000                      mov ebx,0
+    48 0000002F 66A1[02000000]                  mov ax,[b]
+    49 00000035 6699                            cwd
+    50 00000037 6652                            push dx
+    51 00000039 6650                            push ax
+    52 0000003B 58                              pop eax
+    53 0000003C 2500FF0000                      and eax,00000000000000001111111100000000b
+    54 00000041 B108                            mov cl,8
+    55 00000043 D3C8                            ror eax,cl
+    56 00000045 09C3                            or ebx,eax
+    57                                          
+    58 00000047 A0[04000000]                    mov al,[c]
+    59 0000004C 6698                            cbw
+    60 0000004E 6699                            cwd
+    61 00000050 6652                            push dx
+    62 00000052 6650                            push ax
+    63 00000054 58                              pop eax
+    64 00000055 25FF000000                      and eax,00000000000000000000000011111111b
+    65 0000005A B108                            mov cl,8
+    66 0000005C D3C0                            rol eax,cl
+    67 0000005E 09C3                            or ebx,eax
+    68                                          
+    69 00000060 66A1[00000000]                  mov ax,[a]
+    70 00000066 6699                            cwd
+    71 00000068 6652                            push dx
+    72 0000006A 6650                            push ax
+    73 0000006C 58                              pop eax
+    74 0000006D 2500FF0000                      and eax,00000000000000001111111100000000b
+    75 00000072 B108                            mov cl,8
+    76 00000074 D3C0                            rol eax,cl
+    77 00000076 09C3                            or ebx,eax
+    78                                          
+    79 00000078 66A1[00000000]                  mov ax,[a]
+    80 0000007E 6699                            cwd
+    81 00000080 6652                            push dx
+    82 00000082 6650                            push ax
+    83 00000084 58                              pop eax
+    84 00000085 25FF000000                      and eax,00000000000000000000000011111111b
+    85 0000008A B108                            mov cl,8
+    86 0000008C D3C8                            ror eax,cl
+    87 0000008E 09C3                            or ebx,eax
+    88 00000090 891D[05000000]                  mov [d],ebx
+    89                                          
+    90                                          ; exit(0)
+    91 00000096 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    92 00000098 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

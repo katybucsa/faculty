@@ -1,0 +1,21 @@
+1. Calculate the average file size in a given
+directory hierarchy, ignoring the smallest and the
+largest file. If there are multiple files with the
+same minimum or maximum size, ignore just one of
+each.
+
+   Solutions: a.sh or b.sh
+
+2. Extract from a file, all the character
+sequences containing alternatively letter followed
+by digit, and calculate the sum of all those
+digits.
+
+Example:
+
+For file a.txt containing the lines below, the
+result should be 1+2+3+4+5+6+6+6+7+7+7+9+9+9 = 81
+
+z1x2c3 sad;f 345 8 8 8 b4n5
+m6m6m6
+u7u7u7 efo 8r9r9r9t

@@ -1,0 +1,84 @@
+1. Find all lines ending with a vowel in file /etc/passwd
+
+     
+  grep "[aeiouAEIOU]$" /etc/passwd
+     
+  grep -i "[aeiou]$" /etc/passwd
+
+
+
+
+2. Find all lines in file /etc/passwd that contain 3 vowels next
+   to each other
+
+       
+grep "[aeiouAEIOU][aeiouAEIOU][aeiouAEIOU]" /etc/passwd
+       
+grep "[aeiouAEIOU]\{3,3\}" /etc/passwd
+      
+ grep "[aeiouAEIOU]\{3\}" /etc/passwd
+
+
+
+
+3. Find all processes belonging to a certain user
+
+      
+ ps -e -f | grep "^rares\>"
+      
+ ps -f -u rares
+       
+ps -e -f | awk '/^rares\>/ {print $0}'
+
+
+
+
+4. Display file /etc/passwd replacing all non-letters with space
+
+       
+sed "s/[^a-zA-Z]/ /g" /etc/passwd
+       
+sed "s/[^a-z]/ /gi" /etc/passwd
+     
+  sed "s@[^a-z]@ @gi" /etc/passwd
+
+
+
+
+5. Display file /etc/passwd duplicating all non-digits
+
+      
+ sed "s/\([^0-9]\)/\1\1/g" /etc/passwd
+
+
+
+
+6. Display file /etc/passwd replacing all digits and letters with =
+
+       
+sed "s/[a-zA-Z0-9]/=/g" /etc/passwd
+      
+ sed "s/[a-z0-9]/=/gi" /etc/passwd
+
+
+
+7. Calculate the product of the non-zero differences between fields
+   3 and 4 of file /etc/passwd
+
+    
+   awk -F: -f 7c.awk /etc/passwd
+
+
+
+8. Display the penultimate (last but one) field on
+   every second line of /etc/passwd
+
+   
+    awk -F: 'NR % 2 == 0 {print $(NF-1)}' /etc/passwd    
+
+
+
+9. Display the second directory name from the home path of each user
+
+       
+awk -F: '{print $6}' /etc/passwd | awk -F/ '{print $3}'

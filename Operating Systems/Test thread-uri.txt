@@ -1,0 +1,52 @@
+Sa se implementeze 3 thread-uri care aduna,pe rand, la o variabila globala cate un numar aleator intre 0 si 
+10, pana cand variabila globala depaseste 1000. Thread-ul care a realizat trecerea de 1000 afiseaza "Victorie!"
+si apoi programul se termina.
+
+
+#include <stdio.h>
+#include <pthread.h>
+#include <stdlib.h>
+
+pthread_mutex_t mtx;
+int var=0,i=0;
+
+void* aduna(void* p){
+        int *v=(int*)p;
+        int j=v[0];
+        int k=v[1];
+        while(1){
+        	pthread_mutex_lock(&mtx);
+                if(j==i){
+                        var+=k;
+                        if(var>=1000){
+                                printf("Victorie!\n");
+				break;
+			}
+                        i++;
+                        if(i==3)
+                                i=0;
+                }
+                pthread_mutex_unlock(&mtx);
+        }
+        free(v);
+        return NULL;
+}
+
+
+int main(){
+        int i;
+        int *v;
+        pthread_t t[3];
+        pthread_mutex_init(&mtx,NULL);
+        for(i=0;i<3;i++){
+                int a=rand()%10;
+                v=(int*)malloc(3*sizeof(int));
+                v[0]=i;
+                v[1]=a;
+                pthread_create(&t[i],NULL,aduna,(void*)v);
+        }
+        for(i=0;i<3;i++)
+                pthread_join(t[i],NULL);
+        pthread_mutex_destroy(&mtx);
+        return 0;
+}

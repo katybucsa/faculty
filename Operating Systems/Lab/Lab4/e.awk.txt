@@ -1,0 +1,26 @@
+{
+    canadd = 0
+    n = split($0, a, "")
+    for(i=0; i<n; i++) {
+        printf "[%s] ", a[i]
+    }
+    print
+    for(i=0; i<n; i++) {
+        if(a[i] ~ /[a-zA-Z]/) {
+            canadd = 1
+        }
+        else if(a[i] ~ /[0-9]/ && canadd == 1) {
+            sum += a[i]
+            canadd = 0
+        }
+        else {
+            canadd = 0
+        }
+
+        print a[i], canadd, sum
+    }
+}
+
+END {
+    print sum
+}

@@ -1,0 +1,24 @@
+A. Sa se implementeze un script Shell care primeste ca argumente
+   cai de directoare. Afisati toate include-urile din fisierele .c
+   si .h din directoarele date care exista.
+
+   for D in $*; do
+       if [ -d $D ]; then
+           for F in $D/*.c $D/*.h; do
+               grep "^#include" $F
+           done
+       fi
+   done
+
+B. Sa se implementeze un script Shell care primeste ca argumente
+   nume de utilizatori. Afisati numarul de procese rulate de
+   fiecare utilizator valid.
+
+   for U in $*; do
+       if grep -q "^$U:" /etc/passwd; then
+          echo $U `ps -u $U | tail -n +2 | wc -l`
+       fi
+   done
+
+Par: B
+Impar: A

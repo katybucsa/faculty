@@ -1,0 +1,23 @@
+A. Sa se implementeze un script Shell care primeste ca argumente cai de directoare. Pentru fiecare astfel de
+ director care exista, aflati numarul de caractere din numele fisierelor care au extensie. 
+
+for D in $*;do
+	if [ -d $D ];then
+		for F in $D/*.*;do
+
+B.Sa se implementeza un script Shell care primeste ca argumente cai de fisiere. Pentru fiecare fisier care
+  exista, afisati cate dintre cuvintele  din el sunt nume de utilizator existent.
+
+N=0
+for F in $*;do
+	if [ -f $F ];then
+		for W in `cat  $F`;do
+			if grep -q '^$W:' /etc/passwd;then
+				N=`expr $N + 1`
+			fi 
+		done
+		echo $W $N
+	fi
+done
+	
+	

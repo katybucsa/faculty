@@ -1,0 +1,83 @@
+1. Find all lines starting with "r" in file /etc/passwd
+
+    
+
+   grep ^r /etc/passwd
+
+
+
+2. Find all lines in file /etc/passwd that contain
+   5 digits next to each other
+
+    
+
+   grep "[0-9][0-9][0-9][0-9][0-9]" /etc/passwd
+ 
+      
+grep "[0-9]\{5,5\}" /etc/passwd
+    
+
+   
+grep "[0-9]\{5\}" /etc/passwd
+
+
+
+3. Find all processes belonging to a certain user
+
+      
+ ps -u rares
+     
+  
+ps -ef | grep "^rares\>"
+
+
+
+4. Display file /etc/passwd replacing all vowels with =
+
+       
+sed "s/[aeiouAEIOU]/=/g" /etc/passwd
+   
+    
+sed "s/[aeiou]/=/gi" /etc/passwd
+
+
+
+5. Display file /etc/passwd duplicating all lower letters
+
+       
+
+sed "s/\([a-z]\)/\1\1/g" /etc/passwd
+
+
+
+6. Display file /etc/passwd replacing all digits and letter with -
+
+    
+   sed "s/[a-zA-Z0-9]/-/g" /etc/passwd
+     
+  
+sed "s/[a-z0-9]/-/gi" /etc/passwd
+
+
+
+7. Calculate the sum of the products of fields 3 and 4 of file
+   /etc/passwd
+
+      
+ awk -F: -f 7a.awk /etc/passwd
+      
+ 
+awk -F: -f 7b.awk /etc/passwd
+
+
+
+8. Display the first directory name from the home path of each user
+
+      
+ awk -F: '{print $6}' /etc/passwd| awk -F/ '{print $2}'
+ 
+      
+awk -F: '{print $6}' /etc/passwd | sed "s/^\///" | sed "s/\/.*//"
+ 
+     
+ awk -F: '{print $6}' /etc/passwd | sed "s@^/@@" | sed "s@/.*@@"

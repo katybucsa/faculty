@@ -1,0 +1,42 @@
+A. Sa se implementeze un script Shell care primeste ca argumente
+   cai de directoare. Pentru fiecare astfel de director care
+   exista, afisati numarul de caractere din numele fisierelor care
+   au extensie.
+
+   for D in $*; do
+       if [ -d $D ];then
+           for F in $D/*.*; do
+               echo $F `echo $F|wc -c`
+           done
+       fi
+   done
+
+   for D in $*; do
+       if [ -d $D ];then
+           for F in $D/*; do
+               if echo $F | grep "\." -q; then
+                   echo $F `echo $F|wc -c`
+               fi
+           done
+       fi
+   done
+
+B. Sa se implementeze un script Shell care primeste ca argumente
+   cai de fisiere. Pentru fiecare fisier care exista, afisati cate
+   dintre cuvintele din el sunt nume de utilizator existent.
+
+   for F in $*; do
+       if [ -f $F ]; then
+           N=0
+           for W in `cat $F`; do
+               if grep -q "^$W:" /etc/passwd; then
+                  N=`expr $N + 1`
+               fi
+           done
+           echo $F $N
+       fi
+   done
+
+Par: A
+Impar: B
+

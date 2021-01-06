@@ -1,0 +1,23 @@
+NR == 1 {
+    min = $5
+    max = $5
+    sum = sum + $5
+}
+
+
+NR > 1 {
+    sum = sum + $5
+    if(min > $5)
+ {
+        min = $5
+    }
+    
+if(max < $5) {
+        max = $5
+    }
+}
+
+
+END {
+    print ((sum-min-max)/(NR-2))
+}

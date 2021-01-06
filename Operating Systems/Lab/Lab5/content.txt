@@ -1,0 +1,17 @@
+1. Write a Shell script that executes all the
+   commands received as command line
+   parameters. Handle the case when these commands
+   have their own command line arguments. Try
+   using a separator.
+
+   Solutions: a.sh, a2.sh, b.sh, c.sh
+
+2. Find all the files in /usr/bin that are not an
+   executable binary.
+
+   Solutions: d.sh, e.sh
+
+3. Calculate the sum of the i-node IDs of the
+   files in the current directory
+
+   Solutions: f.sh, g.sh

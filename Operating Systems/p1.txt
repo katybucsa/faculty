@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <pthread.h>
+#include <stdlib.h>
+
+int sum;
+int n;
+
+void* suma(void* v){
+        int *vector=(int*)v;
+        int i;
+        for(i=0;i<n;i++)
+                sum+=vector[i];
+        return NULL;
+}
+
+int main(){
+        int v[1000];
+        int a=rand()%20+1;
+        while(a!=10){
+                v[n]=a;
+                n++;
+                a=rand()%20+1;
+        }
+        pthread_t t;
+        pthread_create(&t,NULL,suma,(void*)v);
+        pthread_join(t,NULL);
+        printf("Numerele generate aleator sunt:");
+        for(int i=0;i<n;i++)
+                printf("%d ",v[i]);
+        printf("\nSuma numerelor este:%d\n",sum);
+        return 0;
+}

@@ -1,0 +1,9 @@
+A. Sa se implementeze un script Shell UNIX care numara cate dintre
+   argumentele din linia de comanda sunt fisiere, cate sunt
+   directoare si cate sunt numere.
+
+B. Sa se implementeze un script Shell UNIX care citeste din consola
+   numere si se opreste cand media lor aritmetica este peste 5.
+
+   Par: B
+   Impar: A

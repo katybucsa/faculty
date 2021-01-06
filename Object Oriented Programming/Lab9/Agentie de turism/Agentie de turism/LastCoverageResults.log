@@ -1,0 +1,36 @@
+[2018-05-12 13:57:52] [info] Start Program:
+Path:"C:\Users\ASUS\Desktop\Oop\Lab9\Agentie de turism\x64\Debug\Agentie de turism.exe"
+Arguments:
+Working directory: "C:\Users\ASUS\Desktop\Oop\Lab9\Agentie de turism\Agentie de turism\"
+Modules: Selected: C:\Users\ASUS\Desktop\Oop\Lab9\Agentie de turism\x64\Debug\Agentie de turism.exe Excluded: 
+Sources: Selected: C:\Users\ASUS\Desktop\Oop\Lab9\Agentie de turism\Agentie de turism Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\ASUS\AppData\Local\Temp\lilbibkp.xtu 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+
+[2018-05-12 13:57:52] [info] Module: C:\Users\ASUS\Desktop\Oop\Lab9\Agentie de turism\x64\Debug\Agentie de turism.exe is selected because it matches selected pattern: C:\Users\ASUS\Desktop\Oop\Lab9\Agentie de turism\x64\Debug\Agentie de turism.exe
+[2018-05-12 13:57:53] [warning] c:\users\asus\desktop\oop\lab9\agentie de turism\agentie de turism\repository.cpp line 91 does not exist, skipped
+[2018-05-12 13:57:53] [warning] c:\users\asus\desktop\oop\lab9\agentie de turism\agentie de turism\repository.cpp line 91 does not exist, skipped
+[2018-05-12 13:57:53] [info] Module: C:\Windows\System32\ntdll.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:53] [info] Module: C:\Windows\System32\kernel32.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:53] [info] Module: C:\Program Files\AVAST Software\Avast\x64\aswhooka.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:53] [info] Module: C:\Windows\System32\KernelBase.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:53] [info] Module: C:\Windows\System32\msvcp140d.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:53] [info] Module: C:\Windows\System32\vcruntime140d.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:53] [info] Module: C:\Windows\System32\ucrtbased.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:53] [info] Module: C:\Windows\System32\advapi32.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:53] [info] Module: C:\Windows\System32\msvcrt.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:53] [info] Module: C:\Windows\System32\sechost.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:53] [info] Module: C:\Windows\System32\rpcrt4.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:53] [info] Module: C:\Windows\System32\cryptbase.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:53] [info] Module: C:\Windows\System32\bcryptprimitives.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:54] [info] Module: C:\Windows\System32\kernel.appcore.dll is skipped because it matches no selected patterns
+[2018-05-12 13:57:54] [info] ----------------------------------------------------
+[2018-05-12 13:57:54] [info] Coverage binary generated in file: C:\Users\ASUS\AppData\Local\Temp\lilbibkp.xtu
+[2018-05-12 13:57:54] [info] ----------------------------------------------------

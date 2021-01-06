@@ -1,0 +1,5 @@
+322, Miahi Bogdan,12,10.0
+34,fdd fdfj,12,10.0
+232, fdjdf df,10,9.0
+132,Andrei Ioan,13,10.0
+134,Andrei Ioan,7,9

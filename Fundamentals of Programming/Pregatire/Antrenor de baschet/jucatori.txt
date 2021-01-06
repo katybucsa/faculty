@@ -1,0 +1,6 @@
+Paul,Graham,194.0,fundas
+Tudor,Dumitrescu,215.0,pivot
+Halep,Simona,154.0,fundas
+Gediminas,Navickas,147.0,fundas
+Niksa,Nikolic,229.0,extrema
+Ionut,Dragusin,184.0,pivot

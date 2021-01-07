@@ -1,0 +1,16 @@
+#loginBPane{
+    /*-fx-background-image: url("login.jpg");*/
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+#login_title{
+    -fx-font-size: 18;
+}
+
+
+#login_pane {
+    -fx-alignment: CENTER;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 15,15,15,15;
+}

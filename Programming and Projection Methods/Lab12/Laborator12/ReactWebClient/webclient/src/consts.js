@@ -1,0 +1,1 @@
+export const COMPANY_RIDES_URI='http://localhost:8080/company/rides';

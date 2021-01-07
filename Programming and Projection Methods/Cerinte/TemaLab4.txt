@@ -1,0 +1,3 @@
+    Aplicatii client-server
+
+Pentru problema de la proiect implementati in Java  functionalitatea de autentificare(login) folosind socketuri. Verificarea datelor se face folosind baza de date.

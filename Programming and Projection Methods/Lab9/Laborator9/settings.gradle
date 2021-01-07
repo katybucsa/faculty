@@ -1,0 +1,6 @@
+rootProject.name = 'Laborator9'
+include 'CompanyClient'
+include 'CompanyModel'
+include 'CompanyPersistance'
+include 'CompanyServer'
+include 'CompanyServices'

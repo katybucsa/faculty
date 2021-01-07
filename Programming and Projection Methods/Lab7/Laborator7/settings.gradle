@@ -1,0 +1,11 @@
+rootProject.name = 'Laborator7'
+include 'RideServer'
+include 'RideClient'
+include 'RideNetworking'
+include 'CompanyClient'
+include 'CompanyModel'
+include 'CompanyNetworking'
+include 'CompanyPersistance'
+include 'CompanyServer'
+include 'CompanyServices'
+

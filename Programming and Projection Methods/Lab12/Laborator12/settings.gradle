@@ -1,0 +1,6 @@
+rootProject.name = 'Laborator12'
+include 'CompanyModel'
+include 'CompanyPersistance'
+include 'CompanyRESTServices'
+include 'ReactWebClient'
+

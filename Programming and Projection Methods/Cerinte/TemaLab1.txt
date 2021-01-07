@@ -1,0 +1,9 @@
+               Tema  in timpul laboratorului
+
+Pentru una dintre temele de la laboratorul de  MAP (la alegerea voastra) faceti urmatoarele:
+-creati un proiect Gradle
+-folosind Gradle creati fisierul jar executabil asociat
+-scrieti cel putin doua teste automate (folosind junit) si rulati-le folosind Gradle
+-adaugati jurnalizare uneia dintre clase folosind Gradle si log4j2. Mesajele se vor salva intr-un fisier text.
+
+	

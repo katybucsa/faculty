@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="repository.CourseRepositoryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-03-06T20:39:10" hostname="DESKTOP-FDH8JHJ" time="0.007">
+  <properties/>
+  <testcase name="delete" classname="repository.CourseRepositoryTest" time="0.003"/>
+  <testcase name="findAll" classname="repository.CourseRepositoryTest" time="0.0"/>
+  <testcase name="findOne" classname="repository.CourseRepositoryTest" time="0.0"/>
+  <testcase name="update" classname="repository.CourseRepositoryTest" time="0.001"/>
+  <testcase name="save" classname="repository.CourseRepositoryTest" time="0.0"/>
+  <testcase name="size" classname="repository.CourseRepositoryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

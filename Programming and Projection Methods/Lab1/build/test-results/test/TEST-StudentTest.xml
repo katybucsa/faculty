@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StudentTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-02-28T12:45:44" hostname="DESKTOP-FDH8JHJ" time="0.015">
+  <properties/>
+  <testcase name="getIndrumator" classname="StudentTest" time="0.004"/>
+  <testcase name="setIndrumator" classname="StudentTest" time="0.0"/>
+  <testcase name="getNume" classname="StudentTest" time="0.001"/>
+  <testcase name="setID" classname="StudentTest" time="0.002"/>
+  <testcase name="setEmail" classname="StudentTest" time="0.001"/>
+  <testcase name="setGrupa" classname="StudentTest" time="0.001"/>
+  <testcase name="getIdStudent" classname="StudentTest" time="0.001"/>
+  <testcase name="getEmail" classname="StudentTest" time="0.0"/>
+  <testcase name="getGrupa" classname="StudentTest" time="0.0"/>
+  <testcase name="setNume" classname="StudentTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

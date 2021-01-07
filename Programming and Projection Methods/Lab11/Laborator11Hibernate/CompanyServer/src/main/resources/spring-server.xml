@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:properties id="jdbcProps" location="classpath:db.config">
+    </util:properties>
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="org.sqlite.JDBC"/>
+        <property name="url" value="jdbc:sqlite:C:/Users/Katy/Documents/A2S2/MPP/Lab/Database/Firma_de_transport.db"/>
+    </bean>
+
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="annotatedClasses">
+            <list>
+                <value>company.model.User</value>
+                <value>company.model.Ride</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="rideval" class="company.persistance.RideValidator"/>
+    <bean id="riderepo" class="company.persistance.RideRepository">
+        <constructor-arg ref="sessionFactory"/>
+        <constructor-arg ref="rideval"/>
+    </bean>
+
+    <bean id="clientval" class="company.persistance.ClientValidator"/>
+    <bean id="clientrepo" class="company.persistance.ClientRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="clientval"/>
+    </bean>
+
+    <bean id="bookingval" class="company.persistance.BookingValidator"/>
+    <bean id="bookingrepo" class="company.persistance.BookingRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="bookingval"/>
+        <constructor-arg ref="riderepo"/>
+        <constructor-arg ref="clientrepo"/>
+    </bean>
+
+    <bean id="userval" class="company.persistance.UserValidator"/>
+    <bean id="userrepo" class="company.persistance.UserRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="sessionFactory"/>
+        <constructor-arg ref="userval"/>
+    </bean>
+
+    <bean id="server" class="company.server.Server">
+        <constructor-arg ref="userrepo"/>
+        <constructor-arg ref="riderepo"/>
+        <constructor-arg ref="clientrepo"/>
+        <constructor-arg ref="bookingrepo"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+
+        <property name="serviceName" value="Ride"/>
+        <property name="service" ref="server"/>
+        <property name="serviceInterface" value="company.services.IServer"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+</beans>

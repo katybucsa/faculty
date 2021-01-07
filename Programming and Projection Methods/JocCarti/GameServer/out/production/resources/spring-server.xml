@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:properties id="jdbcProps" location="classpath:db.config">
+    </util:properties>
+
+    <bean id="rideval" class="RideValidator"/>
+    <bean id="riderepo" class="RideRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="rideval"/>
+    </bean>
+
+    <bean id="clientval" class="ClientValidator"/>
+    <bean id="clientrepo" class="ClientRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="clientval"/>
+    </bean>
+
+    <bean id="bookingval" class="BookingValidator"/>
+    <bean id="bookingrepo" class="BookingRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="bookingval"/>
+        <constructor-arg ref="riderepo"/>
+        <constructor-arg ref="clientrepo"/>
+    </bean>
+
+    <bean id="userval" class="UserValidator"/>
+    <bean id="userrepo" class="UserRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="userval"/>
+    </bean>
+
+    <bean id="server" class="Server">
+        <constructor-arg ref="userrepo"/>
+        <constructor-arg ref="riderepo"/>
+        <constructor-arg ref="clientrepo"/>
+        <constructor-arg ref="bookingrepo"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+
+        <property name="serviceName" value="Ride"/>
+        <property name="service" ref="server"/>
+        <property name="serviceInterface" value="IServer"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+</beans>

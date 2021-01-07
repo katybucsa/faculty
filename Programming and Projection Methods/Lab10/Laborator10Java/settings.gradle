@@ -1,0 +1,6 @@
+rootProject.name = 'Laborator10Java'
+include 'CompanyModel'
+include 'CompanyPersistance'
+include 'CompanyServer'
+include 'CompanyServices'
+

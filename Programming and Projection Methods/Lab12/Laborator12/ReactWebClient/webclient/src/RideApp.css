@@ -1,0 +1,34 @@
+.RideApp {
+    text-align: center;
+    align-content: center;
+    color: purple;
+}
+
+.RideApp button {
+    color: purple;
+}
+
+.RideApp-h1 {
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: large;
+
+}
+
+.RideTable {
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: medium;
+    color: purple;
+}
+
+
+.RideApp-body {
+    align-content: center;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+

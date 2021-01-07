@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:properties id="jdbcProps" location="classpath:db.config"/>
+
+
+    <bean id="rideval" class="company.persistance.RideValidator"/>
+    <bean id="riderepo" class="company.persistance.RideRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="rideval"/>
+    </bean>
+
+    <bean id="clientval" class="company.persistance.ClientValidator"/>
+    <bean id="clientrepo" class="company.persistance.ClientRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="clientval"/>
+    </bean>
+
+    <bean id="bookingval" class="company.persistance.BookingValidator"/>
+    <bean id="bookingrepo" class="company.persistance.BookingRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="bookingval"/>
+        <constructor-arg ref="riderepo"/>
+        <constructor-arg ref="clientrepo"/>
+    </bean>
+
+    <bean id="userval" class="company.persistance.UserValidator"/>
+    <bean id="userrepo" class="company.persistance.UserRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="userval"/>
+    </bean>
+
+
+    <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory"/>
+
+    <bean id="topic" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg value="RidesTopic"/>
+    </bean>
+
+    <bean id="converter" class="org.springframework.jms.support.converter.MappingJackson2MessageConverter">
+        <property name="targetType" value="TEXT"/>
+        <property name="typeIdPropertyName" value="_notification"/>
+    </bean>
+
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <constructor-arg ref="connectionFactory"/>
+        <property name="defaultDestination" ref="topic"/>
+        <property name="messageConverter" ref="converter"/>
+    </bean>
+
+    <bean id="notificationService" class="company.server.NotificationService">
+        <constructor-arg ref="jmsTemplate"/>
+    </bean>
+
+
+    <bean id="server" class="company.server.Server">
+        <constructor-arg ref="userrepo"/>
+        <constructor-arg ref="riderepo"/>
+        <constructor-arg ref="clientrepo"/>
+        <constructor-arg ref="bookingrepo"/>
+        <constructor-arg ref="notificationService"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+
+        <property name="serviceName" value="Ride"/>
+        <property name="service" ref="server"/>
+        <property name="serviceInterface" value="company.services.IServer"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+</beans>

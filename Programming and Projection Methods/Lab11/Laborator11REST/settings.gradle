@@ -1,0 +1,5 @@
+rootProject.name = 'Laborator11REST'
+include 'CompanyModel'
+include 'CompanyPersistance'
+include 'CompanyRESTServices'
+

@@ -1,0 +1,25 @@
+(defun sterg(l e)
+    (cond
+        ((and (atom l) (equal l e)) nil)
+        ((and(atom l)) (list l))
+        (t (list (apply #'append(mapcar #'(lambda (lista)
+                                        (sterg lista e)
+                                      )
+                            l)
+                  )
+            )
+        )
+    )
+)
+
+(defun sterge(l e)
+    (car (sterg l e))
+)
+
+;(defun elimin(l)
+ ;   (cond   
+ ;       ((numberp l) nil)
+ ;       ((atom l) (list l))
+;        (t (list(apply #'append(mapcar #'elimin l))))
+ ;   )
+;)

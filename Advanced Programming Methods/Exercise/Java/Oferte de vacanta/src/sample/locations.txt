@@ -1,0 +1,5 @@
+abc,Suceava,Balada,340,180
+adsf,Costa Rica,Imperium,544,90
+dss,Londra,Balada,340,180
+sd,Bucuresti,Csadf,344,180
+htr,Suceava,Imperium,240,90

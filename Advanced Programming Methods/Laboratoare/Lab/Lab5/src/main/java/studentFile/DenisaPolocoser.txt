@@ -1,0 +1,18 @@
+Tema: 2
+Nota: 7.5
+Predata in saptamana: 10
+Deadline: 9
+Feedback: NOTA A FOST DIMINUATA CU n PUNCTE DIN CAUZA INTARZIERILOR
+
+Tema: 10
+Nota: 9.899999618530273
+Predata in saptamana: 10
+Deadline: 10
+Feedback: fsdfawfqwe
+
+Tema: 10
+Nota: 9.800000190734863
+Predata in saptamana: 10
+Deadline: 10
+Feedback: fewrqwe
+

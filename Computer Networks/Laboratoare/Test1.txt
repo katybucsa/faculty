@@ -1,0 +1,26 @@
+Subiect A
+Sa se scrie o pereche de programe client/server care comunica prin socketul TCP. Dupa conectarea
+clientului la server, serverul returneaza clientului adresa IP a clientului cu cele mai multe 
+conectari si numarul de conectari de pe IP-ul respectiv. Perechea de programe va fi rulata cu clienti
+provenind de pe cel putin 3 adrese IP diferite. In programul client, portul si IP-ul se vor citi din
+linia de comanda, iar serverul trebuie sa fie concurent.
+
+
+
+Subiect B
+Sa se scrie o pereche de programe client/server care comunica prin socketul TCP din care 
+cel putin unul in limbajul c. Dupa conectarea clientului la server, clientul trimite serverului 
+un nr. nat. si un port. Serverul citeste nr nat si numarul de port si se conecteaza inapoi la 
+client pe adresa ip a clientului si pe portul trimis de client la server. Pe  aceasta noua conexiune serverul returneaza clientului
+divizorii numarului primit. Clientul afiseaza ce a primit de la server.Serverul va fi concurent 
+si adresa ip si portul serverului vor fi specificate la client in linia de comanda.
+1 p of
+1 p compilare
+1 p conectare client
+1 p clientul trimite nr si portul
+2 p daca serverul face conectiunea inversa 
+1 p severul concurent
+1 p parametrii in linia de comanda
+1 p trimitere rezultat de la server inapoi si afisarea lui in client
+1 p det divizorilor 
+

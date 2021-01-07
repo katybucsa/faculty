@@ -1,0 +1,10 @@
+1,PaulCiuci,56
+2,Pepe,34
+3,Smiley,32
+4,ConnectR,30
+5,Inna,28
+6,Delia,30
+7,CristiMinculescu,65
+8,EnriqueIglesias,38
+9,Vescan,29
+10,TheMotans,28

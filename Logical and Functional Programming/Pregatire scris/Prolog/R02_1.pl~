@@ -1,0 +1,21 @@
+detMin([H],H):-!.
+detMin([H|T],M):-detMin(T,M),M<H,!.
+detMin([H|_],H).
+
+elim(_,[],[]):-!.
+elim(E,[E|T],R):-elim(E,T,R),!.
+elim(E,[H|T],[H|R]):-elim(E,T,R).
+
+multime([],[]):-!.
+multime(L,[M|R]):-detMin(L,M),elim(M,L,L1),multime(L1,R).
+
+
+inserare(E,L,[E|L]).
+inserare(E,[H|T],[H|L]):-inserare(E,T,L).
+
+
+aranjP([H|_],1,[H]).
+aranjP([_|T],K,A):-aranjP(T,K,A).
+aranjP([H|T],K,A):-K>1,K1 is K-1,aranjP(T,K1,A1),inserare(H,A1,A).
+
+toateA(L,K,A):-findall(R,aranjP(L,K,R),A).

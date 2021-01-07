@@ -1,0 +1,3 @@
+1|Sala mare|9|34
+2|Sala mica|19|20
+1|Sala mica|17|56

@@ -1,0 +1,6 @@
+﻿a,Andrei,20,Junior
+c,Alex,42,Senior
+s,Sabina,12,Medium
+b,Elena,40,Junior
+w,Alina,30,Senior
+d,George,22,Medium

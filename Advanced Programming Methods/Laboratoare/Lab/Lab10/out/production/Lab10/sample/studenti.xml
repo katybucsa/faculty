@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<students>
+    <student id="1">
+        <nume>Andrei Munteanu</nume>
+        <grupa>224</grupa>
+        <email>amir12323@scs.ubbcluj.ro</email>
+        <indrumator>Alina Ungureanu</indrumator>
+    </student>
+    <student id="2">
+        <nume>Diana Tabrean </nume>
+        <grupa>225</grupa>
+        <email>jfhdgfd</email>
+        <indrumator>gdfgthtr</indrumator>
+    </student>
+</students>

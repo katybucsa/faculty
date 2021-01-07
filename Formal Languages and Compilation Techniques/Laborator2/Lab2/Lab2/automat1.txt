@@ -1,0 +1,5 @@
+Q=p,q,r,t
+A=0,1
+T=p-q,0;q-p,0;p-r,1;r-p,1;r-t,0;t-r,0;q-t,1;t-q,1
+I=p
+F=t,p

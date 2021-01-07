@@ -1,0 +1,14 @@
+inceput
+	intreg a,b;
+	introdu(a);
+	introdu(b);
+	cattimp(a!=b) 
+		daca(a>b):
+			a = a - b;
+		.
+		alternativa:
+			b = b - a;
+		.
+	gata
+	tipareste(a);
+sfarsit

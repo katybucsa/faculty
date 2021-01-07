@@ -1,0 +1,11 @@
+inceput,1
+real,2
+introdu,3
+tipareste,4
+sfarsit,5
+intreg,6
+cattimp,7
+daca,8
+alternativa,9
+repeta,10
+gata,11

@@ -1,0 +1,147 @@
+%{
+#include <string>
+#include <vector>
+#include <map>
+#include <iostream>
+using namespace std;
+
+int err_count = 0;
+int pos = 301;
+map<string, int> simboluri;
+map<int, vector<string>> FIP;
+
+
+void addElem(int code, int line) {
+	if(FIP.find(line)!=FIP.end()){
+		FIP[line].push_back(to_string(code));
+	}
+	else{
+		FIP.insert(pair<int,vector<string>>(line, vector<string>{to_string(code)}));
+	}
+}
+
+void addSimbol(string elem){
+	if(simboluri.find(elem) == simboluri.end()){
+		simboluri.insert(pair<string, int>(elem, pos)); 
+		pos += 1;
+	}
+}
+%}
+
+%option caseless
+%option yylineno
+
+LITERA		[A-Za-z_]
+CIFRA_ZEC	[0-9]
+CIFRA_NZ    [1-9] 
+ZERO        [0]      
+IDENTIFICATOR	{LITERA}({LITERA}|{CIFRA_ZEC})*
+NR_BAZA10	{CIFRA_NZ}+{CIFRA_ZEC}*|{ZERO}
+NR_REAL		{NR_BAZA10}"."{NR_BAZA10}*
+SIR_CAR		[\"][^\n]*[\"]
+
+
+%%
+
+[\t\n]                     {FIP[yylineno].push_back(yytext);}
+[ ]
+[0-9]+[a-zA-Z]+[a-zA-Z0-9]* {cout<<"Eroare la linia "+ to_string(yylineno)+"! Identificatorul" +yytext+" nu poate incepe cu cifra!\n"; err_count+=1;}
+
+
+"inceput"		    {addElem(1,yylineno);}
+"real"		    	    {addElem(2,yylineno);}
+"introdu"		    {addElem(3,yylineno);}
+"tipreste"	            {addElem(4,yylineno);}
+"sfarsit"		    {addElem(5,yylineno);}
+"intreg"		    {addElem(6,yylineno);}
+"cattimp"		    {addElem(7,yylineno);}
+"daca"		    	    {addElem(8,yylineno);}
+"alternativa"         	    {addElem(9,yylineno);}
+"repeta"		    {addElem(10,yylineno);}
+"gata"		    	    {addElem(11,yylineno);}
+
+"++"		            {addElem(101,yylineno);}
+"-"                   	    {addElem(102,yylineno);}
+"*"                         {addElem(103,yylineno);}
+"!="                        {addElem(104,yylineno);}
+">"                         {addElem(105,yylineno);}
+"<"                         {addElem(106,yylineno);}
+"=" 		            {addElem(107,yylineno);}
+"+"                         {addElem(108,yylineno);}
+
+"("         	    	    {addElem(201,yylineno);}  
+")"                         {addElem(202,yylineno);}
+"["         	    	    {addElem(203,yylineno);}
+"]"         	    	    {addElem(204,yylineno);}  
+"," 		    	    {addElem(205,yylineno);}
+";"		    	    {addElem(206,yylineno);}
+":"		    	    {addElem(207,yylineno);}
+
+
+{IDENTIFICATOR}	{addSimbol(yytext); addElem(simboluri[yytext], yylineno);}
+{NR_BAZA10}	{addSimbol(yytext); addElem(simboluri[yytext], yylineno);}
+{NR_REAL}	{addSimbol(yytext); addElem(simboluri[yytext], yylineno);}
+{SIR_CAR}	{addSimbol(yytext); addElem(simboluri[yytext], yylineno);}
+
+. {cout<<"Eroare " << yytext <<"\n la linia "<<yylineno; err_count+=1;}
+
+%%
+yyerror(char *s)
+{
+  cout<<s<<endl;
+}
+
+int yywrap(){} 
+
+main(int argc, char **argv)
+{   
+   int cmd;
+   char file1[] = "cerc.txt", file2[] = "cmmdc.txt", file3[] = "suma.txt"; 
+   while (true) {
+	FIP.clear();
+	simboluri.clear();
+	err_count = 0;
+	pos = 301;
+	cout << "\n0. Exit" << endl;
+	cout << "1. Pentru a incarca fisierul cerc.txt" << endl;
+	cout << "2. Pentru a incarca fisierul cmmdc.txt" << endl;
+        cout << "3. Pentru a incarca fisierul suma.txt" << endl << endl;
+	cout << "Introduceti comada: ";
+	cin >> cmd;
+	if (cmd == 0) {
+		return 0;
+	}
+	if (cmd == 1) {
+		yyin = fopen(file1,"r");
+	}
+	else if (cmd == 2) {
+		yyin = fopen(file2,"r");
+	}
+	else if (cmd == 3) {
+		yyin = fopen(file3,"r");
+	}
+	else {
+		cout << "Comanda gresita\n";
+		continue;
+	}
+	
+        if(yylex()==0){
+		if(!err_count){
+			cout<<"\nTabela de simboluri:\n\n";
+			for(auto e:simboluri){
+				cout<<e.first<<" - "<<e.second<<endl;
+			}
+			cout<<"\n\nFIP\n\n";
+			for (auto e : FIP) {
+				for (string x : e.second) {
+					cout << x<<" ";
+				}
+			}
+			cout<<"\n\n";
+		}
+   	}
+	yylineno = 1;
+   }
+}
+
+

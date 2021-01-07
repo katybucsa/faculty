@@ -1,0 +1,11 @@
+inceput
+	intreg raza;
+	intreg perim;
+	intreg PI;
+	introdu(raza);
+	perim = 2;
+	PI = 3.14;
+	perim = perim * PI;
+	perim = perim * raza;
+	tipareste(perim);
+sfarsit

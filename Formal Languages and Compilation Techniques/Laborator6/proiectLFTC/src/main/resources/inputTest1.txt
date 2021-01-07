@@ -1,0 +1,7 @@
+Sursa'->Sursa
+Sursa->inceput Content sfarsit
+Content->SectVar
+SectVar->Tip ListaVar pv
+ListaVar->Declarare
+Tip->real
+Declarare->id

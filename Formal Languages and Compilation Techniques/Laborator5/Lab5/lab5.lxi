@@ -1,0 +1,78 @@
+%{
+#include "asm.tab.h"
+#include "attrib.h"
+
+extern int lineno;  /* defined in micro.y */
+%}
+
+%option noyywrap
+%option caseless
+
+LITERA		[A-Za-z]
+CIFRA_ZEC	[0-9]
+CIFRA_NZ    [1-9] 
+ZERO        [0]  
+IDENTIFICATOR	{LITERA}({LITERA}|{CIFRA_ZEC})*
+NR_BAZA10	{CIFRA_NZ}+{CIFRA_ZEC}*|{ZERO}
+NR_REAL		{NR_BAZA10}"."{NR_BAZA10}*
+DELIMIT_1	[;.,:]
+OPERATOR_1	[+*/()<>=]|"-"|"["|"]"
+COMENT		"{"[^}]*"}"
+SIR_CAR		["][^\n"]*["]
+CARACTER	"'"[^\n]"'"
+
+%%
+
+[ \t\n]
+{COMENT}
+
+inceput		     {return INCEPUT;}
+real             {return REAL;}
+introdu		     {return INTRODU;}
+tipareste		 {return TIPARESTE;}
+sfarsit		     {return SFARSIT;}
+intreg           {return INTREG;}
+cattimp          {return CATTIMP;}
+daca		     {return DACA;}
+alternativa		 {return ALTERNATIVA;}
+repeta		     {return REPETA;}
+gata		     {return GATA;}
+
+"="		{return ATRIBUIRE;}
+"<"		{return LESS;}
+">"		{return GREATER;}
+"=="     {return EQUAL;} 
+"!="	{return DIFF;}
+
+
+
+
+{IDENTIFICATOR}	{ strcpy(yyval.varname,yytext); return ID;}
+{NR_BAZA10}	{
+	         strcpy(yyval.varname,yytext); 
+	         return CONST_INT;
+		}
+{NR_REAL}	{
+	         strcpy(yyval.varname,yytext); 
+        	return CONST_REAL;
+		}
+{CARACTER}	{
+	        strcpy(yyval.varname,yytext); 
+	         return CONST_CAR;
+		}
+{SIR_CAR}	{
+		strcpy(yyval.varname,yytext); 
+		return CONST_SIR;
+		}
+
+{DELIMIT_1}	{
+		return yytext[0];
+		}
+{OPERATOR_1}	{
+		return yytext[0];
+		}
+
+.    {printf("Illegal character \n %s \n on line #%d\n",yytext,lineno);
+	 }
+
+%%

@@ -1,0 +1,8 @@
+inceput
+	real raza , perimetru , aria , PI = 3.14 ;
+	introdu ( raza ) ;
+	perimetru = 2 * PI * raza ;
+	aria = PI * raza * raza ;
+	tipareste ( perimetru ) ;
+	tipareste ( 1aria ) ;
+sfarsit

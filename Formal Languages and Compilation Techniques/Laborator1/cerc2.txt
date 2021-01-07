@@ -1,0 +1,8 @@
+sunaAlarma
+     neata r , p , a ,PI = 3.14 ;
+     mananca ( r ) ;
+     p = 2 * PI * r ;
+     a = PI * r * r ;
+     evrika ( p ) ;
+     evrika ( a ) ;
+somn 

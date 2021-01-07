@@ -1,0 +1,9 @@
+inceput
+	intreg n, v[50], suma=0;
+	introdu(n);
+	repeta(i=0;i<n;i=i+1) 
+		introdu(v[i]);
+		s=s+v[i];
+	gata
+	tipareste(suma);
+sfarsit

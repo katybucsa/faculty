@@ -1,0 +1,14 @@
+sunaAlarma
+	neata a, b ;
+	mananca ( a ) ;
+	mananca ( b ) ;
+	gandire ( a != b )
+		optiune ( a > b )
+			a = a - b ;
+		decizie
+		alternativa
+			b = b - a ;
+		decizie
+	sfGandire
+	evrika ( a ) ;
+somn

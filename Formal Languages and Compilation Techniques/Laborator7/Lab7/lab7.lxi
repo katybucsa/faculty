@@ -1,0 +1,54 @@
+%{
+#include <stdio.h>
+#include <string.h>
+#include "lab7.tab.h"
+
+int mylineno = 1;
+%}
+
+%option noyywrap
+
+LITERA		[A-Za-z]
+CIFRA_ZEC	[0-9]
+CIFRA_NZ    [1-9] 
+ZERO        [0]  
+IDENTIFICATOR	{LITERA}({LITERA}|{CIFRA_ZEC})*
+NR_BAZA10	{CIFRA_NZ}+{CIFRA_ZEC}*|{ZERO}
+NR_REAL		{NR_BAZA10}"."{NR_BAZA10}*
+DELIMIT_1	[;.,:]
+OPERATOR_1	[+*/()<>=]|"-"|"["|"]"
+COMENT		"{"[^}]*"}"
+SIR_CAR		["][^\n"]*["]
+CARACTER	"'"[^\n]"'"
+
+
+%%
+
+[ \t]
+{COMENT}
+
+inceput		     {return INCEPUT;}
+introdu		     {return INTRODU;}
+tipareste		 {return TIPARESTE;}
+sfarsit		     {return SFARSIT;}
+intreg           {return INTREG;}
+gata		     {return GATA;}
+
+"="              {return ATRIBUIRE;}
+"+"              {return PLUS;}
+"-"              {return MINUS;}
+"*"              {return ORI;}
+"/"              {return DIV;}
+";"              {return PV;}
+","              {return V;}
+"("              {return PD;}
+")"              {return PI;}
+"\n"             {mylineno++;}
+
+{IDENTIFICATOR}	{ sscanf(yytext, "%s", yylval.id); return ID;}
+{NR_BAZA10}	{
+	         strcpy(yylval.id, yytext); 
+	         return CONST_INT;
+		}
+
+%%

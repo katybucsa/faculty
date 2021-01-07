@@ -1,0 +1,9 @@
+inceput
+	intreg a;
+	intreg b;
+	intreg c;
+	a=3; b=4; c=5;
+	a=a*b;
+	a=a*c;
+	tipareste(a);
+sfarsit

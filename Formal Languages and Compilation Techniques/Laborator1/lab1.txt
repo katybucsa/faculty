@@ -1,0 +1,27 @@
+a)Reguli sintactice
+
+<program> -> <type> name_function(<params>) { <lista_instr> }
+<type> -> int | void | double | char | bool | float | string
+<params> -> E | <type> <variabla> , <params> | <type> <variabila>
+<lista_instr> -> <instr> ; <lista_instr>
+<lista_instr> -> <instr> ;
+<instr> -> <declarare> | <atribuire> | <instr_while> | <instr_if> | <instr_for> | return <expr>		<instr_afisare> | <instr_citire> 
+<instr_if> -> if(<expr>) then <lista_instr> else <lista_instr>
+<expr> -> CONST | <variabila> | <expr> <operator> <expr> | <expr> <operator> 
+<variabila> -> ID 
+<operator> -> + | - | == | != | >= | <= | % | / | * | || | += | -= | ++ | -- | /= | *= | << | >>
+<instr_while> -> while( <expr> ) { <lista_instr> }
+<instr_for> -> for(<atribuire> ; <expr> ; <expr>) { <lista_instr> }
+<instr_afisare> -> "WRITE" <expr>
+<instr_citire> -> "READ" <expr>
+<atribuire> -> <variabila> = <expr>  
+<declarare> -> <type> <expr_declar>
+<expr_declar> -> E | <expr> | <expr> , <expr_declar> | <variabila> "[" CONST "]" , <expr>
+
+
+b)Reguli lexicale
+
+ID -> letter | letter{letter}{digit}
+letter -> "A" | "B" | . ..| "Z"
+digit -> "0" | "1" |...| "9"
+CONST -> | "-255" | "0" | "1" |...| "9" | "10" | "11" | ... | "100" | "101" | ... | "255"

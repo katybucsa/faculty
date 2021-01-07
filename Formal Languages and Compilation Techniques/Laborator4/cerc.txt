@@ -1,0 +1,8 @@
+inceput
+	real raza , perim , aria;
+	introdu ( raza ) ;
+	perim = 2 * 3.14 * raza ;
+	aria = 3.14 * raza * raza ;
+	tipareste ( perim ) ;
+	tipareste ( aria ) ;
+sfarsit

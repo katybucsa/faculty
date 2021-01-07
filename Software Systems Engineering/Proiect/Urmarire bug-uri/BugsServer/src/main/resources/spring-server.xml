@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:properties id="jdbcProps" location="classpath:db.config">
+    </util:properties>
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="org.sqlite.JDBC"/>
+        <property name="url" value="jdbc:sqlite:C:/Users/Katy/Documents/A2S2/ISS/Lab/Database/bug-uri.db"/>
+    </bean>
+
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.hbm2ddl.auto">create</prop>
+            </props>
+        </property>
+        <property name="annotatedClasses">
+            <list>
+                <value>bugs.model.User</value>
+                <value>bugs.model.Bug</value>
+            </list>
+        </property>
+    </bean>
+    <bean id="userval" class="bugs.persistance.UserValidator"/>
+    <bean id="userrepo" class="bugs.persistance.UserRepository">
+        <constructor-arg ref="sessionFactory"/>
+        <constructor-arg ref="userval"/>
+    </bean>
+
+    <bean id="bugval" class="bugs.persistance.BugValidator"/>
+    <bean id="bugrepo" class="bugs.persistance.BugRepository">
+        <constructor-arg ref="sessionFactory"/>
+        <constructor-arg ref="bugval"/>
+    </bean>
+
+
+    <bean id="server" class="bugs.server.Service">
+        <constructor-arg ref="userrepo"/>
+        <constructor-arg ref="bugrepo"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+
+        <property name="serviceName" value="Bug"/>
+        <property name="service" ref="server"/>
+        <property name="serviceInterface" value="bugs.services.IService"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+</beans>

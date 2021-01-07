@@ -1,0 +1,91 @@
+#pane{
+    -fx-background-image: url("image.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#gridPane1{
+    -fx-background-image: url("image.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-alignment: CENTER;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 15,15,15,15;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#table{
+    -fx-background-image: url("empty.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: stretch;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 20, 0.5, 0, 0);
+}
+#id,#grupa,#nume,#email,#prof,#nr,#desc,#deadline,#sPT{
+    -fx-text-fill: black;
+    -fx-background-color: #ff95fb;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+#idL,#grupaL,#numeL,#emailL,#profL,#nrL,#descL,#deadlineL,#sPTL{
+    -fx-text-fill: #400143;
+   /* -fx-background-color: #ff95fb;*/
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+#add,#delete,#update,#prelung{
+    -fx-font-weight: bold;
+    -fx-font-size: 12;
+    -fx-pref-width: 75;
+    -fx-pref-height: 30;
+    -fx-background-color: white;
+}
+#add{
+    -fx-text-fill: red;
+}
+#delete{
+    -fx-text-fill: blue;
+}
+#update{
+    -fx-text-fill: #317680;
+}
+
+#prelung{
+    -fx-text-fill: #ff2149;
+}
+
+#menuBar{
+    -fx-background-color: #ff95fb;
+}
+#studenti,#teme,#note{
+    -fx-text-fill: PURPLE;
+    -fx-font-weight: bold;
+    -fx-pref-width: 130;
+    -fx-pref-height: 34;
+}
+
+#mainPane{
+    -fx-alignment: CENTER;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 10,15,15,15;
+}
+
+#sceneTitle{
+    -fx-font-family: Algerian;
+    -fx-font-weight: bold;
+    -fx-font-size: 35;
+    -fx-fill: WHITE;
+}
+#title{
+    -fx-font-family: Castellar;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-fill: WHITE;
+}

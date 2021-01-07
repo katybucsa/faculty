@@ -1,0 +1,5 @@
+1|Toderas Andrei|221|tair@scs.ubbcluj.ro|Abc Def
+2|Moldovan Ciprian|225|mcir2274@scs.ubbcluj.ro|Alina
+3|Gabriela Popescu|223|gabi@scs.ubbcluj.ro|Alex
+4|Denis Muntean|226|denis@scs.ubbcluj.ro|Maria
+5|Bucsa Ecaterina1|221|katybucsa@yahoo.com|Chisalita-Cretu Camelia

@@ -1,0 +1,4 @@
+1|Andrei Rotar|226|arir2224@scs.ubbcluj.ro|Marius Vanta
+2|Moldovan Ciprian|225|mcir2274@scs.ubbcluj.ro|Alina
+3|Morar Gabriel|225|cgir2235@scs.ubbcluj.ro|Marius Vanta
+4|Sandu Monica|222|smir@scs.ubbcluj.ro|Alina

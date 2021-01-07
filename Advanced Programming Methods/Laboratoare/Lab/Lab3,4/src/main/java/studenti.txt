@@ -1,0 +1,2 @@
+1|Toderas Andrei|223|andrei@scs.ubbcluj.ro|Abc Def
+2|Moldovan Ciprian|225|mcir2274@scs.ubbcluj.ro|Alina Tofan

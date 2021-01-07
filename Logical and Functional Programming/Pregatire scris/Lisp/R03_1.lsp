@@ -1,0 +1,10 @@
+(defun inloc(l k)
+    (cond
+        ((and(atom l)(= k 0)) 0)
+        ((atom l) l)
+        (t (mapcar #'(lambda(lst)
+                        (inloc lst (- k 1))
+                     )
+                     l))
+    )
+)

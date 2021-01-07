@@ -1,0 +1,4 @@
+2|numere complexe|9|2
+9|task|6|1
+11|abc|11|7
+10|dsdfjk|10|8

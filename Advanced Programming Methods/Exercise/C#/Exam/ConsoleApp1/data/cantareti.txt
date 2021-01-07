@@ -1,0 +1,10 @@
+1,Rock
+2,Latino
+3,Pop
+4,Pop
+5,Pop
+6,Pop
+7,Rock
+8,Latino
+9,Pop
+10,Pop

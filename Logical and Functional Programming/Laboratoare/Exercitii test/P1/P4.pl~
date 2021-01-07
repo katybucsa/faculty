@@ -1,0 +1,14 @@
+%a)Sa se scrie un predicat care substituie intr-o lista un element cu o
+% alta lista.
+% substituie(L,E,Ld,R)
+% L - lista data
+% E - elementul care va fi substituit
+% Ld - lista cu care va fi substituit elementul E
+% R - lista rezultata
+% model de flux (i,i,i,o)
+
+
+substituie([],_,_,[]):-!.
+substituie([H|T],E,Ld,R):- H=:=E,!,substituie(T,E,Ld,R1),R=[Ld|R1].
+substituie([H|T],E,Ld,R):-substituie(T,E,Ld,R1),R=[H|R1].
+

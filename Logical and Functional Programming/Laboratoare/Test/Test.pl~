@@ -1,0 +1,18 @@
+%PROLOG 17.Sa se sorteze o lista cu eliminarea dublurilor.
+
+detMin([M],M):-!.
+detMin([H|T],H):- detMin(T,M1),H<M1,!.
+detMin([_|T],M):- detMin(T,M).
+
+
+eliminaEl([],_,[]):-!.
+eliminaEl([E|T],E,R):-eliminaEl(T,E,R),!.
+eliminaEl([H|T],E,R):-eliminaEl(T,E,R1),R=[H|R1].
+
+
+
+sorteaza([],[]):-!.
+sorteaza(L,R):- detMin(L,M),
+                eliminaEl(L,M,R1),
+                sorteaza(R1,R2),
+                R=[M|R2].

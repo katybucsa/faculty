@@ -1,0 +1,9 @@
+CREATE FUNCTION dbo.validare(@Rows INT)
+RETURNS BIT
+AS
+BEGIN
+	DECLARE @k BIT
+	IF @Rows<=0
+		SET @k=1
+	RETURN @k
+END

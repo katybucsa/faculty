@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1526748662 source:d:\algoritmica grafurilor\prim\prim\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+

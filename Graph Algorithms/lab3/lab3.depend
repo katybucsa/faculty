@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1524690030 source:c:\users\asus\desktop\algoritmica grafurilor\lab3\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+

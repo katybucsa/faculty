@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1525876462 source:c:\users\asus\desktop\algoritmica grafurilor\bfs\main.cpp
+	<iostream>
+	<fstream>
+

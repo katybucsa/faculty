@@ -1,0 +1,5 @@
+rootProject.name = 'Laborator6'
+include 'Server'
+include 'Client'
+include 'Model'
+

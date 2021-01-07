@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BigIntegerAddition">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAIAAAAIBAAAABEAAAAAAAAEEAgBAAGAAAEAAAA=</HashCode>
+      <FileName>BigIntegerAddition.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BigIntegerGenertor">
+    <Position X="3" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>BigIntegerGenerator.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyThread">
+    <Position X="5.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAEAAAAAIgAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>MyThread.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MyThread">
+    <Position X="7" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAEAAAAAAgAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>MyThread.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SequentialA">
+    <Position X="0.5" Y="3" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SequentialA.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SequentialD">
+    <Position X="0.5" Y="4.25" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SequentialD.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BigIntegerGenerator">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>BigIntegerGenerator.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BigIntegerMultiplication">
+    <Position X="5" Y="0.5" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAIAAAAAAAAAAAEAAAAAAAAAEAABEAEAAAAQAAA=</HashCode>
+      <FileName>BigIntegerMultiplication.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitMultiplication">
+    <Position X="0.5" Y="1.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DigitMultiplication.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

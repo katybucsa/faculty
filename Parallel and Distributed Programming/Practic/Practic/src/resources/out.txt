@@ -1,0 +1,4800 @@
+Sunt producatorul 0
+Am inserat -386694657
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -884645918
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 1290592784
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 2112277036
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -386694657
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -884645918
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1290592784
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 2112277036
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -75072981
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -1242187247
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -1476967454
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 1250597835
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -75072981
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -1242187247
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1476967454
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1250597835
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 519156905
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1716813151
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 2004915509
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1871960425
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 519156905
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 1716813151
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 2004915509
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1871960425
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -1856616448
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -1645454838
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -1375044239
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -694702812
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -1856616448
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1645454838
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -1375044239
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -694702812
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -2007476446
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 40826803
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -1166121076
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1409506347
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -2007476446
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 40826803
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1166121076
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -1409506347
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -1216456873
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1816319180
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 1506657514
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 863079862
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -1216456873
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1816319180
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1506657514
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 863079862
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1068799539
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1132754114
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 138212922
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1103531698
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1068799539
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1132754114
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 138212922
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 1103531698
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -1879111146
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1466532877
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 184923644
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 746169514
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -1879111146
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1466532877
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 184923644
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 746169514
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1972684669
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 728309078
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -1137231347
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 854702838
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 1972684669
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 728309078
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1137231347
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 854702838
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1535206967
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1363386408
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 477046325
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1816826171
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 1396090035
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -1445801362
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 1542093827
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -1748272600
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -1535206967
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 1363386408
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 477046325
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1816826171
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1396090035
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1445801362
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1542093827
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1748272600
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 1264451318
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -913664272
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 1068759656
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 946061797
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -428598524
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -767010411
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -1330034718
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 1161433742
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1264451318
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit -913664272
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 1068759656
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 946061797
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -428598524
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -767010411
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1330034718
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1161433742
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -457926006
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1087554192
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -886031317
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1156980090
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 1259928834
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -2010958938
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 2048235334
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -585827584
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -457926006
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 1087554192
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -886031317
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -1156980090
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1259928834
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -2010958938
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 2048235334
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -585827584
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -684528729
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1932679898
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -1345380303
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1483317608
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -760802155
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 1657367468
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -1898345391
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 981842190
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -684528729
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1932679898
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -1345380303
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -1483317608
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -760802155
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 1657367468
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1898345391
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 981842190
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 684641369
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -1222671759
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -2021630076
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -2009442647
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 222323342
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 1374364759
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 828760563
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -1650333069
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 684641369
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -1222671759
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -2021630076
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -2009442647
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 222323342
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1374364759
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 828760563
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1650333069
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1912042586
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -450890171
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -136280891
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1301988635
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 1039144111
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -705919571
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -336365385
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -257314829
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1912042586
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit -450890171
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -136280891
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -1301988635
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 1039144111
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -705919571
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -336365385
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -257314829
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 1359293348
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -2044056041
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -1075723030
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 1822267784
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -516321186
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 258597937
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -1697976181
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -117058866
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 1359293348
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -2044056041
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -1075723030
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1822267784
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -516321186
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 258597937
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -1697976181
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -117058866
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1466225255
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1028639272
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -1849648502
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 100716951
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1858152124
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -264344236
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 1511530623
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -1938727819
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -1466225255
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1028639272
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -1849648502
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 100716951
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -1858152124
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -264344236
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 1511530623
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -1938727819
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 869030275
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1848546478
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 1603748082
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -695477325
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -160825578
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -1435845967
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -1173366989
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -1670687078
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 869030275
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 1848546478
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 1603748082
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -695477325
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -160825578
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1435845967
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -1173366989
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1670687078
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1583053279
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1350217866
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 14789140
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -2051354200
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -361131755
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 744872566
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -701476623
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 1336439562
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1583053279
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1350217866
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 14789140
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -2051354200
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -361131755
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 744872566
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -701476623
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1336439562
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1988665592
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -98565191
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -1083712437
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1760136152
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -2105810761
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 283272867
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 2128150134
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -1256111142
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 1988665592
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -98565191
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -1083712437
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -1760136152
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -2105810761
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 283272867
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 2128150134
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1256111142
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -247242194
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -97255003
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 1896902681
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1357952353
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 241898539
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -2027376932
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 151710776
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 1577477435
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -247242194
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit -97255003
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 1896902681
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 1357952353
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 241898539
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -2027376932
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 151710776
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1577477435
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1922230960
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1077431959
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 353001616
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 211569555
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 502746594
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -497409120
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -866246780
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -2045280821
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 1922230960
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 1077431959
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 353001616
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 211569555
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 502746594
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -497409120
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -866246780
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -2045280821
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1533043338
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 908043881
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 353959410
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 653416675
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -45266863
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -1163673407
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 1275929061
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 620326951
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1533043338
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 908043881
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 353959410
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 653416675
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -45266863
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -1163673407
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 1275929061
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 620326951
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -1815844364
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 252193552
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -1432133940
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 1657115076
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -694691358
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -1624376705
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -1160124773
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -152421265
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -1815844364
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 252193552
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -1432133940
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1657115076
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -694691358
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1624376705
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -1160124773
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -152421265
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 327914901
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1270969687
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 1635858285
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 1934949119
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 1410614909
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 568851191
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -1275647457
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -1078665055
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 327914901
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1270969687
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 1635858285
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 1934949119
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 1410614909
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 568851191
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1275647457
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -1078665055
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 756824781
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1153810571
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -617418522
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 677921906
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 873420168
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 366313246
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 985004719
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 1762532040
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 756824781
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 1153810571
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -617418522
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 677921906
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 873420168
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 366313246
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 985004719
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 1762532040
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -770304619
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 840794406
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -1267429184
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 680259556
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 1605331659
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -990303422
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -1614421850
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -67287672
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -770304619
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 840794406
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -1267429184
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 680259556
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 1605331659
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -990303422
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1614421850
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -67287672
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 521125091
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -147218155
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 1269834989
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1965239616
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 1902703956
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -1404386206
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -15107316
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 522823763
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 521125091
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -147218155
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 1269834989
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -1965239616
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1902703956
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1404386206
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -15107316
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 522823763
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 1118360074
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 279016731
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 887105614
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -2014681444
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 250875874
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 1063936769
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 1364599836
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 560148294
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1118360074
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 279016731
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 887105614
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -2014681444
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 250875874
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 1063936769
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 1364599836
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 560148294
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1935463435
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -697000838
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -2018377248
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1062349042
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1070376464
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -94824938
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -1361181796
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -1497004997
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -1935463435
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -697000838
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -2018377248
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -1062349042
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -1070376464
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -94824938
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -1361181796
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1497004997
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1255622023
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -1799109306
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 41635102
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -869129417
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 602215725
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 610214894
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -1775114108
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -1927505239
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -1255622023
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit -1799109306
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 41635102
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -869129417
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 602215725
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 610214894
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1775114108
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -1927505239
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 1940857103
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1426179807
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -766020968
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -471594541
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 1473302533
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 1939087187
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 161344242
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -1398415494
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 1940857103
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 1426179807
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -766020968
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -471594541
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1473302533
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1939087187
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 161344242
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1398415494
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -18517421
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 377168316
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 643224397
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 962322992
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 840236019
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -763172375
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -1852793901
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -1113304452
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -18517421
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 377168316
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 643224397
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 962322992
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 840236019
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -763172375
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1852793901
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -1113304452
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -1162315870
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -1469178842
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -1602117083
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 1352981525
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -372487137
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -1844308962
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -223596812
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -836044958
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -1162315870
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -1469178842
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -1602117083
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1352981525
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -372487137
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1844308962
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -223596812
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -836044958
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1030834414
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1301291663
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -1019738131
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1557152598
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -733487009
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 1160322042
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -1721103600
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 1088221255
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1030834414
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1301291663
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -1019738131
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -1557152598
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -733487009
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 1160322042
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1721103600
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1088221255
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1576873362
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1756118092
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 738646682
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1118053319
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1588294753
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 1238786571
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -776732913
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 672425426
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 1576873362
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 1756118092
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 738646682
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -1118053319
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -1588294753
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1238786571
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -776732913
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 672425426
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -2012749685
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -1928752364
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -137838269
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1075028143
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1804344456
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 1862860304
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -1506391270
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -366647016
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -2012749685
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit -1928752364
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -137838269
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 1075028143
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -1804344456
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 1862860304
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1506391270
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -366647016
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -821614466
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 848334304
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -1193559740
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 562397228
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 516976752
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -911959359
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -1746530051
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 564440066
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -821614466
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 848334304
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -1193559740
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 562397228
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 516976752
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -911959359
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -1746530051
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 564440066
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 734664942
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -1408252923
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -1459056561
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 2012844874
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -295865974
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 2070756316
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 554868764
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -506892192
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 734664942
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit -1408252923
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -1459056561
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 2012844874
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -295865974
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 2070756316
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 554868764
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -506892192
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 1519346621
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -1335840597
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 714835029
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -704026340
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -460975087
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 968142422
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 1269756951
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -1949637671
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 1519346621
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -1335840597
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 714835029
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -704026340
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -460975087
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 968142422
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1269756951
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1949637671
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -1995446588
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 942664748
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -1284656984
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 1507624945
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -409814078
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -1331559130
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 880854702
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 2066933134
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -1995446588
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 942664748
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -1284656984
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 1507624945
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -409814078
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -1331559130
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 880854702
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 2066933134
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 862764944
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -348292008
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 1524047178
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1292545642
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1294116515
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 594885032
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 1400039416
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 2004879853
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 862764944
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -348292008
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 1524047178
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1292545642
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -1294116515
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 594885032
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1400039416
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 2004879853
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1764192946
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1538564078
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -196034652
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -305374365
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1829565928
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -2111786169
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 21599671
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -634405328
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1764192946
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1538564078
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -196034652
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -305374365
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -1829565928
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -2111786169
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 21599671
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -634405328
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -214075828
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -92378362
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 814654938
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1042252408
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 89323618
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 1169754309
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -531685240
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 905612735
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -214075828
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -92378362
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 814654938
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1042252408
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 89323618
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1169754309
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -531685240
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 905612735
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 1039933887
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 609582437
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 875184933
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -273208169
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -397720591
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -1846879738
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 1117778069
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 267530757
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1039933887
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 609582437
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 875184933
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -273208169
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -397720591
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -1846879738
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 1117778069
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 267530757
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 2106154089
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1457318934
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 1953677166
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 710021464
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1180573866
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -2107289307
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 656904067
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -848672763
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 2106154089
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 1457318934
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 1953677166
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 710021464
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -1180573866
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -2107289307
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 656904067
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -848672763
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 502537907
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1067370446
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -1508800115
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -2090961277
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1271064654
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 971508018
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -1858568141
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -1699690956
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 502537907
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1067370446
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -1508800115
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -2090961277
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -1271064654
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 971508018
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1858568141
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -1699690956
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1922331827
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 2089219888
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -53814125
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1004897651
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1814542138
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 402475934
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 1334295563
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 987097863
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -1922331827
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 2089219888
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -53814125
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1004897651
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -1814542138
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 402475934
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1334295563
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 987097863
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 1283698226
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 82461263
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -157585403
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -194611671
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 854947762
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -2044662056
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 266053049
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 1187753025
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1283698226
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 82461263
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -157585403
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -194611671
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 854947762
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -2044662056
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 266053049
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1187753025
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -823069149
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -2131078031
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 1595042105
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1484656840
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -848361532
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 438155578
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -718740634
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -2054222239
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -823069149
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -2131078031
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 1595042105
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1484656840
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -848361532
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 438155578
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -718740634
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -2054222239
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1716390486
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 324647019
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -966521876
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -442121353
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 1257948224
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -56923183
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -632640990
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 111513130
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -1716390486
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 324647019
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -966521876
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -442121353
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 1257948224
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -56923183
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -632640990
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 111513130
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -26569629
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -339069510
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 553458046
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -568195710
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 1760058971
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -63260950
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 1171329844
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -715469977
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -26569629
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -339069510
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 553458046
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -568195710
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1760058971
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -63260950
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1171329844
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -715469977
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 1174383141
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1277696704
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -1428495625
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 944080130
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -425316900
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -1070156799
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 1367637787
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -1485611089
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1174383141
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1277696704
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -1428495625
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 944080130
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -425316900
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -1070156799
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 1367637787
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -1485611089
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1072932824
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 130066207
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -788290884
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1283252727
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -2021313
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 1981962766
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 1598945634
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 301598254
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -1072932824
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 130066207
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -788290884
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1283252727
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -2021313
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1981962766
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1598945634
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 301598254
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1545703281
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -175265335
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 2144902881
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1078890933
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 1537050092
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 444530841
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 1090987092
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 56100110
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -1545703281
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit -175265335
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 2144902881
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -1078890933
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 1537050092
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 444530841
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 1090987092
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 56100110
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 158853874
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 849915614
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 735110595
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 2012454653
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -558276864
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -479511159
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -325623059
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -1525279695
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 158853874
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 849915614
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 735110595
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 2012454653
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -558276864
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -479511159
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -325623059
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1525279695
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -1067399197
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -1157331507
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 1727567341
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -488879424
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -878074486
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -497058522
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 1723291644
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 471534844
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -1067399197
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit -1157331507
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 1727567341
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -488879424
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -878074486
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -497058522
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 1723291644
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 471534844
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1621228064
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -805393132
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -1229317560
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1831304350
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 732507808
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 461729540
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 651352440
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 123174361
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 1621228064
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -805393132
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -1229317560
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -1831304350
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 732507808
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 461729540
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 651352440
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 123174361
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -730550498
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1445934144
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 1485755866
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -2029006051
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 253442204
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 1101324078
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 280618190
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 1956102220
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -730550498
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1445934144
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 1485755866
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -2029006051
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 253442204
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 1101324078
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 280618190
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1956102220
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -253379476
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -1217455600
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 148752378
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 1073186436
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 2117267718
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 1442422178
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -973040848
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -385756947
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -253379476
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -1217455600
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 148752378
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1073186436
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 2117267718
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1442422178
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -973040848
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -385756947
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1294865941
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1225707819
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 1760714205
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1387660779
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -667099660
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -1336479285
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -2044010217
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 1756781120
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1294865941
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1225707819
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 1760714205
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -1387660779
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -667099660
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -1336479285
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -2044010217
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1756781120
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -677801995
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 2127255173
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 1571140718
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 523996359
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 1608724736
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -1037904189
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 1417252329
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -412600048
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -677801995
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 2127255173
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 1571140718
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 523996359
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1608724736
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1037904189
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1417252329
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -412600048
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -1914896768
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1950419642
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -776041467
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -990697003
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -1483032758
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 1566897950
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -751576493
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 1886908424
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -1914896768
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1950419642
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -776041467
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -990697003
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -1483032758
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 1566897950
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -751576493
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1886908424
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -777426678
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1704371604
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 1474982277
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 1687185509
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -341967756
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 2108995849
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 1684285870
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 1336603641
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -777426678
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 1704371604
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 1474982277
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1687185509
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -341967756
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 2108995849
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1684285870
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 1336603641
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1924284180
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1416346167
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -871489410
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 591970856
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1855949023
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -835515314
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -199062809
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -460474466
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1924284180
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1416346167
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -871489410
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 591970856
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -1855949023
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -835515314
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -199062809
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -460474466
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1161586225
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -455210264
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 1085053952
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -959840478
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 238091705
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -1823513810
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -888196299
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -1341570882
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -1161586225
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -455210264
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 1085053952
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -959840478
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 238091705
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1823513810
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -888196299
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1341570882
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -707746223
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1601977182
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -580983215
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -40898228
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -176935174
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 865496892
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -1225455002
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 1388024818
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -707746223
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1601977182
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -580983215
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -40898228
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -176935174
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 865496892
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1225455002
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1388024818
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -358297276
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -796615952
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -138367484
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 1695063596
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -211714667
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -898920236
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -1824884137
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -152846094
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -358297276
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -796615952
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -138367484
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1695063596
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -211714667
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -898920236
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -1824884137
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -152846094
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1379399778
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 892868014
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 781885922
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 438379936
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1092328845
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -361295316
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 897767438
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 1355393081
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1379399778
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 892868014
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 781885922
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 438379936
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -1092328845
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -361295316
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 897767438
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1355393081
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 665121816
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 815462640
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 659116557
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1112413360
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 882420579
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -1292097173
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 89458719
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 2077209362
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 665121816
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 815462640
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 659116557
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1112413360
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 882420579
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1292097173
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 89458719
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 2077209362
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 760252342
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1130791995
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 1702697679
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 1698612593
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -1905877076
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -1274875660
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -97588758
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -899267292
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 760252342
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1130791995
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 1702697679
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 1698612593
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -1905877076
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -1274875660
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -97588758
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -899267292
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -89123600
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -1691118249
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 1441576797
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1732600651
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 231138772
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 1606921960
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -1305971880
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -1680343385
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -89123600
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -1691118249
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 1441576797
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -1732600651
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 231138772
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1606921960
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -1305971880
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1680343385
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 1539785523
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 2140020601
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -1099064452
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 1582400172
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -1271217641
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 36430900
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 1000367688
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 1429330476
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1539785523
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 2140020601
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -1099064452
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 1582400172
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -1271217641
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 36430900
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 1000367688
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1429330476
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -431593608
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -70031724
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -2008236568
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1429803247
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -64542505
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -1739730464
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -2142405210
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -1053256841
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -431593608
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -70031724
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -2008236568
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1429803247
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -64542505
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1739730464
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -2142405210
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1053256841
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1752477074
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 602974244
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -62500738
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1912092194
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1472435172
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 200930156
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -174351025
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -2134152304
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1752477074
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 602974244
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -62500738
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -1912092194
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -1472435172
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 200930156
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -174351025
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -2134152304
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 918132560
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 98760232
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 2059993393
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 600104287
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -630179917
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 1162432897
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 482800035
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 637382114
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 918132560
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 98760232
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 2059993393
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 600104287
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -630179917
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1162432897
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 482800035
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 637382114
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 2097881321
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 308707211
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 1754482275
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -441221419
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -496348019
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 449092016
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -1094351822
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 1599494839
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 2097881321
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 308707211
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 1754482275
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -441221419
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -496348019
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 449092016
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1094351822
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1599494839
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -2057908945
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -89659344
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -1829943540
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -43214180
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 520632537
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -1975910136
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 1631862049
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -159903589
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -2057908945
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -89659344
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -1829943540
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -43214180
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 520632537
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1975910136
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1631862049
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -159903589
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -1946817578
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1595620804
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 37853241
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 978975946
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -218244483
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -461009804
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -1414717521
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 2002356998
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -1946817578
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1595620804
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 37853241
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 978975946
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -218244483
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -461009804
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1414717521
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 2002356998
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1398840764
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -1312886244
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 320501379
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1002281549
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1709471719
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -1569522174
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -1344167099
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -1804735189
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 1398840764
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -1312886244
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 320501379
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 1002281549
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -1709471719
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1569522174
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -1344167099
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1804735189
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -634834853
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 478702917
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 1272362081
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -995969168
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 1180104544
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 1117519095
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 410449972
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 798983633
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -634834853
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 478702917
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 1272362081
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -995969168
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 1180104544
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 1117519095
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 410449972
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 798983633
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -616962109
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1479289665
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -735024685
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -677902740
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 1819916643
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -846517055
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -209472631
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -1742939726
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -616962109
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 1479289665
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -735024685
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -677902740
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1819916643
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -846517055
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -209472631
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1742939726
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 1651659468
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1698368377
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 23218205
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -426669857
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -1565474523
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -1817725783
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -815003811
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 1417580906
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1651659468
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1698368377
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 23218205
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -426669857
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -1565474523
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -1817725783
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -815003811
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1417580906
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -666216319
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -2126017811
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 1409637599
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 345238287
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 1920210303
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -94492856
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 1634026565
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 1601731611
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -666216319
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -2126017811
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 1409637599
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit 345238287
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1920210303
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -94492856
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1634026565
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 1601731611
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -1977858400
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 2044080530
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -451506529
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -1850342915
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 1540304476
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -272783015
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 448029142
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 1924359618
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -1977858400
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 2044080530
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -451506529
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -1850342915
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 1540304476
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -272783015
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 448029142
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1924359618
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1379194496
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 74012021
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 399743793
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -354768017
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 1181306924
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 1521343800
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 1888701882
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 165046806
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 1379194496
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 74012021
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 399743793
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -354768017
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1181306924
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1521343800
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1888701882
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 165046806
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -252961659
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1177842374
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 336294313
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1622035689
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -484067032
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 1548254207
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -1645400116
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 1403029705
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -252961659
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1177842374
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 336294313
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -1622035689
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -484067032
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 1548254207
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1645400116
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1403029705
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1402154976
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -809573632
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 247903656
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1322742616
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 246774434
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -2039449079
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -409903789
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -51932326
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -1402154976
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -809573632
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 247903656
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -1322742616
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 246774434
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -2039449079
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -409903789
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -51932326
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -29318414
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1868224112
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 1355199894
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 480947958
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -1884287064
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -1332348014
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -123487790
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 210833500
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -29318414
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1868224112
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 1355199894
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 480947958
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -1884287064
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -1332348014
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -123487790
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 210833500
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 2025256515
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -1608969350
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 267373763
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -1666023930
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 1639819737
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 149765656
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 432215146
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -1168699823
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 2025256515
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -1608969350
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 267373763
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -1666023930
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1639819737
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 149765656
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 432215146
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1168699823
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -582053038
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -46303733
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -999544745
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -353784121
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -2063116332
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 222667794
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -805924107
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -604806311
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -582053038
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit -46303733
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -999544745
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -353784121
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -2063116332
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 222667794
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -805924107
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -604806311
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -20864907
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -2126559142
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 2099666370
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -359178470
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 2075071338
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 143749595
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -1200012260
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -1644493041
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -20864907
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -2126559142
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 2099666370
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -359178470
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 2075071338
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 143749595
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -1200012260
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1644493041
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 776684767
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -187427864
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 1704130377
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 1488677272
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 971378073
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 2043528403
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 1879292886
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat 1059612458
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 776684767
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit -187427864
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 1704130377
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 1488677272
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 971378073
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 2043528403
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 1879292886
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1059612458
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1771697834
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -1544924962
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 1268643270
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1085365227
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 1252291106
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -1420949844
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 750666542
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 1111093225
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -1771697834
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit -1544924962
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 1268643270
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -1085365227
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1252291106
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1420949844
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 750666542
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit 1111093225
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -1941618188
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat -1654720622
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 1397059855
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -679168427
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -2132861300
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -1754595054
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -423462431
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -160726338
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -1941618188
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit -1654720622
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 1397059855
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit -679168427
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -2132861300
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -1754595054
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -423462431
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -160726338
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1152374428
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 464940971
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 645703507
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -502913106
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1858606027
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 1050852902
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 1408868747
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -582605669
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -1152374428
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 464940971
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit 645703507
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -502913106
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -1858606027
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1050852902
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1408868747
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -582605669
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1243584057
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1438607682
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -2023339613
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1666576217
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat -1810458320
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -1052061300
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat -978203605
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 1299906561
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -1243584057
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1438607682
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -2023339613
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 1666576217
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit -1810458320
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -1052061300
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -978203605
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1299906561
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 60658721
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 40919731
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -38101122
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -576376148
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat -1321920736
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 2045177662
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -1006183404
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -2071070793
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 60658721
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 40919731
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -38101122
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -576376148
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -1321920736
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 2045177662
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -1006183404
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -2071070793
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -556817930
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1613850058
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -1616789627
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 244528177
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 1235610726
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -757633654
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat 1280909134
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -1939919086
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -556817930
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 1613850058
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -1616789627
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 244528177
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 1235610726
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -757633654
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 1280909134
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -1939919086
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat 1430421593
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1141915378
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -888404399
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -35854485
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 576712793
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat 1978734472
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -1134435010
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -1517552607
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit 1430421593
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 1141915378
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -888404399
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -35854485
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 576712793
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 1978734472
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -1134435010
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1517552607
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -2147102482
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 794101300
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat 18655978
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat 1374683534
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 850787851
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -622157755
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -1190316231
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -91892906
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit -2147102482
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit 794101300
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit 18655978
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 1374683534
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 850787851
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit -622157755
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit -1190316231
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit -91892906
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -1647128159
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 1724432877
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -164283801
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -1145156236
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 1710683353
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat -1079339340
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 1391293043
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat -2070720900
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -1647128159
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 1724432877
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -164283801
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -1145156236
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1710683353
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -1079339340
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 1391293043
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -2070720900
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat 1710792026
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat -1249752960
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat -385321378
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat 1339724643
+Dimensiunea cozii 4
+Sunt producatorul 0
+Am inserat 2054724738
+Dimensiunea cozii 5
+Sunt producatorul 0
+Am inserat 253812007
+Dimensiunea cozii 6
+Sunt producatorul 0
+Am inserat 1073106827
+Dimensiunea cozii 7
+Sunt producatorul 0
+Am inserat 1449748055
+Dimensiunea cozii 8
+Sunt consumatorul1
+Elementul primit 1710792026
+Dimensiunea cozii 7
+Sunt consumatorul1
+Elementul primit -1249752960
+Dimensiunea cozii 6
+Sunt consumatorul1
+Elementul primit -385321378
+Dimensiunea cozii 5
+Sunt consumatorul1
+Elementul primit 1339724643
+Dimensiunea cozii 4
+Sunt consumatorul1
+Elementul primit 2054724738
+Dimensiunea cozii 3
+Sunt consumatorul1
+Elementul primit 253812007
+Dimensiunea cozii 2
+Sunt consumatorul1
+Elementul primit 1073106827
+Dimensiunea cozii 1
+Sunt consumatorul1
+Elementul primit 1449748055
+Dimensiunea cozii 0
+Sunt producatorul 0
+Am inserat -139653220
+Dimensiunea cozii 1
+Sunt producatorul 0
+Am inserat 1465981314
+Dimensiunea cozii 2
+Sunt producatorul 0
+Am inserat -800779275
+Dimensiunea cozii 3
+Sunt producatorul 0
+Am inserat -42948521
+Dimensiunea cozii 4
+Sunt producatorul 1
+Am inserat 1689676496
+Dimensiunea cozii 5
+Sunt producatorul 1
+Am inserat -523398203
+Dimensiunea cozii 6
+Sunt producatorul 1
+Am inserat -180657651
+Dimensiunea cozii 7
+Sunt producatorul 1
+Am inserat -1332661433
+Dimensiunea cozii 8
+Sunt consumatorul0
+Elementul primit -139653220
+Dimensiunea cozii 7
+Sunt consumatorul0
+Elementul primit 1465981314
+Dimensiunea cozii 6
+Sunt consumatorul0
+Elementul primit -800779275
+Dimensiunea cozii 5
+Sunt consumatorul0
+Elementul primit -42948521
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit 1689676496
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit -523398203
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit -180657651
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -1332661433
+Dimensiunea cozii 0
+Sunt producatorul 1
+Am inserat -381956994
+Dimensiunea cozii 1
+Sunt producatorul 1
+Am inserat 955237503
+Dimensiunea cozii 2
+Sunt producatorul 1
+Am inserat 63658715
+Dimensiunea cozii 3
+Sunt producatorul 1
+Am inserat -756567346
+Dimensiunea cozii 4
+Sunt consumatorul0
+Elementul primit -381956994
+Dimensiunea cozii 3
+Sunt consumatorul0
+Elementul primit 955237503
+Dimensiunea cozii 2
+Sunt consumatorul0
+Elementul primit 63658715
+Dimensiunea cozii 1
+Sunt consumatorul0
+Elementul primit -756567346
+Dimensiunea cozii 0

@@ -1,0 +1,21 @@
+﻿  MpiBigIntegerAddition.cpp
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ReadFromFile.cpp(42,21): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ChildProcess.cpp(46,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ChildProcess.cpp(119,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ChildProcess.cpp(135,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ChildProcess.cpp(156,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ParentProcess.cpp(10,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ParentProcess.cpp(133,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ParentProcess.cpp(134,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ParentProcess.cpp(190,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ParentProcess.cpp(138,14): warning C4101: 'status': unreferenced local variable
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ParentProcess.cpp(225,10): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ParentProcess.cpp(226,10): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ParentProcess.cpp(296,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\Lab3C++\ParentProcess.cpp(230,14): warning C4101: 'status': unreferenced local variable
+  Generating code
+  11 of 315 functions ( 3.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Lab3C++.vcxproj -> C:\Users\Katy\Documents\A3S1\PPD\Laborator\Laborator3\Lab3C++\x64\Release\Lab3C++.exe
